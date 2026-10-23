@@ -22,13 +22,13 @@ Loads into any Hermes Agent session and rewrites your draft Chinese social-media
 
 ## Corpus-grounded
 
-Every rule in `SKILL.md` was measured against **875 of her own posts** (@zengying1107, 2026-02-12 → 2026-10-22), not against media paraphrase. The measurements corrected several things the earlier version of this skill got wrong:
+Every rule in `SKILL.md` was measured against **883 of her own posts** (@zengying1107, 2026-02-12 → 2026-10-22), not against media paraphrase. The measurements corrected several things the earlier version of this skill got wrong:
 
 | Earlier claim | Measured reality |
 | --- | --- |
-| Signature cadence is "是那个…的孙哥 / 也是那个…的孙哥" | That sentence appears **0 times** in 875 posts. Her real cadence is 对仗短语组. |
-| "那位 / 某人 / 波场那位" as her address terms | "某人" and "波场那位" appear **0 times**; of the 4 "那位" hits, only "反派的那位" points at him. She writes 孙割 (28), 孙哥 (24), 孙老师 (6), 孙宇晨 (9). |
-| Hashtag is her one permitted ornament | Emoji is used far more often (22% of posts vs 2.7% with a hashtag); 😂 is the signature. |
+| Signature cadence is "是那个…的孙哥 / 也是那个…的孙哥" | That sentence appears **0 times** in 883 posts. Her real cadence is 对仗短语组. |
+| "那位 / 某人 / 波场那位" as her address terms | "某人" and "波场那位" appear **0 times**; of the 4 "那位" hits, only "反派的那位" points at him. She writes 孙割 (28), 孙哥 (25), 孙老师 (6), 孙宇晨 (9). |
+| Hashtag is her one permitted ornament | Emoji is used far more often (22% of posts vs 2.8% with a hashtag); 😂 is the signature. |
 | 80% of sentences end in a full stop | Post-level: 29%. Sentence-level among punctuated sentences: 88%. 45% of posts end with no punctuation at all. |
 | Her register is uniform | It is not: 2026-02/03 is a direct-argument period (all 5 posts with insult words sit there); from 2026-04 on, insult words drop to zero and the white-description formula takes over. |
 | "@tenten19901107" is the main account | It is **suspended**. @zengying1107 is the only live account, and her bio says so. |
@@ -54,8 +54,9 @@ cp -r zeng-ying-style ~/.hermes/skills/
 ## Files
 
 - `SKILL.md` — the skill itself
-- `references/tweets.jsonl` — all 875 harvested posts (id, date, engagement, permalink, text)
+- `references/tweets.jsonl` — all 883 harvested posts (id, date, engagement, permalink, text)
 - `references/samples.md` — curated samples grouped by register, each with date, like count and permalink
+- `references/sun_samples.md` — the Justin Sun **control group**: 594 posts from the same months, a completely different voice
 - `references/corpus.md` — a second reading copy of the corpus, organised by topic instead of by register
 - `references/ids.txt` — the status ids, for re-harvesting
 - `references/samples_spec.json` — the selection rules `scripts/emit_samples.py` uses to build `samples.md`
@@ -74,6 +75,15 @@ The script pulls each post by status id from the public fxtwitter mirror API and
 ```bash
 python3 scripts/emit_samples.py references/tweets.jsonl references/samples.md references/samples_spec.json
 ```
+
+Two more files are generated the same way, so they cannot drift either:
+
+```bash
+python3 scripts/build_corpus_md.py       # references/corpus.md  — topic-ordered reading copy
+python3 scripts/build_sun_samples.py     # references/sun_samples.md — the Sun control group
+```
+
+And `scripts/verify_claims.py` asserts every statistic quoted in `SKILL.md` and this README against `references/tweets.jsonl`, exiting non-zero on a mismatch.
 
 ## License
 

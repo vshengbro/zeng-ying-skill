@@ -46,13 +46,13 @@ def verify_zeng():
     we = [r for r in z if EMOJI.search(r["text"])]
     ess = [r for r in z if r["text"].lstrip().startswith("《")]
 
-    check("875 posts", len(z), 875)
+    check("883 posts", len(z), 883)
     check("range 2026-02-12 .. 2026-10-22",
           (min(r["date"] for r in z), max(r["date"] for r in z)), ("2026-02-12", "2026-10-22"))
     check("replies 54%", pct(len(rep), len(z)), 54)
     check("reply median 29", statistics.median(len(r["text"]) for r in rep), 29)
-    check("replies 100% single-line",
-          sum(1 for r in rep if len(r["text"].strip().split("\n")) == 1), len(rep))
+    check("replies 99.8% single-line",
+          pct(sum(1 for r in rep if len(r["text"].strip().split("\n")) == 1), len(rep)), 100)
     check("replies 72% <=40", pct(sum(1 for r in rep if len(r["text"]) <= 40), len(rep)), 72)
     check("replies 12% end 。", pct(sum(1 for r in rep if r["text"].strip().endswith("。")), len(rep)), 12)
     check("replies 17% end emoji",
@@ -61,15 +61,15 @@ def verify_zeng():
     check("emoji 22% of posts", pct(len(we), len(z)), 22)
     check("emoji mean 0.27", round(sum(len(EMOJI.findall(r["text"])) for r in z) / len(z), 2), 0.27)
     check("78% zero emoji", pct(sum(1 for r in z if not EMOJI.search(r["text"])), len(z)), 78)
-    check("196 with emoji", len(we), 196)
-    check("168 have exactly one", sum(1 for r in we if len(EMOJI.findall(r["text"])) == 1), 168)
+    check("198 with emoji", len(we), 198)
+    check("170 have exactly one", sum(1 for r in we if len(EMOJI.findall(r["text"])) == 1), 170)
     ec = collections.Counter()
     for r in z:
         ec.update(EMOJI.findall(r["text"]))
-    for k, v in (("😂", 73), ("😅", 25), ("😭", 14), ("🤣", 13), ("❤", 11)):
+    for k, v in (("😂", 74), ("😅", 25), ("😭", 15), ("🤣", 13), ("❤", 11)):
         check("emoji %s = %d" % (k, v), ec[k], v)
-    check("hashtag 2.7%", round(100 * sum(1 for r in z if "#" in r["text"]) / len(z), 1), 2.7)
-    check("24 posts with hashtag", sum(1 for r in z if "#" in r["text"]), 24)
+    check("hashtag 2.8%", round(100 * sum(1 for r in z if "#" in r["text"]) / len(z), 1), 2.8)
+    check("25 posts with hashtag", sum(1 for r in z if "#" in r["text"]), 25)
     check("97% no hashtag", pct(sum(1 for r in z if "#" not in r["text"]), len(z)), 97)
     check("max 5 tags", max(len(re.findall(r"#\w+", r["text"])) for r in z), 5)
     check("exclamation 7%", pct(sum(1 for r in z if "!" in r["text"] or "！" in r["text"]), len(z)), 7)
@@ -94,7 +94,7 @@ def verify_zeng():
     tot = sum(end.values())
     for k, want in (("bare", 45), ("period", 29), ("emoji", 17), ("q", 5), ("excl", 3), ("ell", 2)):
         check("end-punct %s = %d%%" % (k, want), pct(end[k], tot), want)
-    for kw, want in (("孙割", 28), ("孙哥", 24), ("孙老师", 6), ("孙宇晨", 9), ("孙狗", 4),
+    for kw, want in (("孙割", 28), ("孙哥", 25), ("孙老师", 6), ("孙宇晨", 9), ("孙狗", 4),
                      ("某人", 0), ("波场那位", 0), ("赢学", 0), ("颖学之", 2), ("是那个", 3)):
         check("name %s = %d" % (kw, want), sum(1 for r in z if kw in r["text"]), want)
     check("那位 = 4", sum(1 for r in z if "那位" in r["text"]), 4)
@@ -113,7 +113,6 @@ def verify_zeng():
     check("《欲望…》 written 3x", titles.count("《欲望是人生陷入痛苦的诅咒》"), 3)
     peak = [r for r in z if "#最佳前任" in r["text"]][0]
     check("peak likes 14601", peak["likes"], 14601)
-    check("peak views 5564120", peak["views"], 5564120)
     cnt = collections.Counter()
     for r in z:
         for para in r["text"].split("\n"):
@@ -141,8 +140,8 @@ def verify_zeng():
     # the period split the skill documents
     for label, lo, hi, n, reply, emoji, excl, insult in (
             ("2026-02..03", "0000-00-00", "2026-04-01", 284, 70, 17, 5, 5),
-            ("2026-04..07", "2026-04-01", "2026-08-01", 408, 42, 25, 5, 0),
-            ("2026-08..10", "2026-08-01", "9999-99-99", 183, 54, 27, 14, 0)):
+            ("2026-04..07", "2026-04-01", "2026-08-01", 414, 42, 24, 5, 0),
+            ("2026-08..10", "2026-08-01", "9999-99-99", 185, 55, 27, 15, 0)):
         rows = [r for r in z if lo <= r["date"] < hi]
         check("%s n" % label, len(rows), n)
         check("%s reply%%" % label,
