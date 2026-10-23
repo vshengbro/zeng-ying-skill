@@ -264,14 +264,14 @@ def verify_sun():
 
 
 def main():
-    here = os.path.basename(ROOT)
-    if here == "zeng-ying-skill":
+    # Dispatch on which account the corpus holds, not on the directory name:
+    # a clone of the repository is not called zeng-ying-skill.
+    corpus = load(os.path.join(ROOT, "references", "tweets.jsonl"))
+    accounts = {row.get("author") for row in corpus}
+    if "zengying1107" in accounts:
         verify_zeng()
-    elif here == "sun-yuchen-skill":
-        verify_sun()
     else:
-        print("run this from inside one of the two skill repositories", file=sys.stderr)
-        return 2
+        verify_sun()
     print("\n" + ("ALL CLAIMS VERIFIED" if not fails else "FAILURES:\n" + "\n".join(fails)))
     return 1 if fails else 0
 
