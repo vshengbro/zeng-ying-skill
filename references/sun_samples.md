@@ -1555,6 +1555,36 @@ TRON will be ready for what's to come!
 孙宇晨奖，都来参加吧！
 ```
 
+### 2025-03-27 · 8116 likes · 8365939 views · https://x.com/justinsuntron/status/1905324113851547790
+
+```text
+From a visionary to a global force — honored to be featured on Forbes as Crypto’s Billionaire Barker. TRON’s journey continues, powering a global payment system with 300 million users and counting. Decentralization will prevail.
+```
+
+### 2026-09-25 · 138 likes · 156507 views · https://x.com/justinsuntron/status/2103381476045922470
+
+```text
+永远听劝！
+```
+
+### 2026-10-07 · 19 likes · 24306 views · https://x.com/justinsuntron/status/2107702108904653126
+
+```text
+一个自嘲的玩笑，被认真解读成了"自白"。说明一下：Poloniex服务用户，数据公开透明。幽默感还是要有的，事实也是要讲的。😎
+```
+
+### 2026-10-14 · 191 likes · 143428 views · https://x.com/justinsuntron/status/2110298951434084799
+
+```text
+波场收入全部归波场网络与TRX质押者所有
+```
+
+### 2026-10-17 · 189 likes · 119321 views · https://x.com/justinsuntron/status/2111481862736785824
+
+```text
+$TRX 销毁全球第一，如今波场TRON生态 just:native ethereum:0xc669928185dbce49d2230cc9b0979be6dc797957 ethereum:0x61ec85ab89377db65762e234c946b5c25a56e99e sun-token:native $WIN 销毁也进入同赛道全球第一的水平了！
+```
+
 ---
 
 ## 与曾颖语体的对照（改写时不要混用）

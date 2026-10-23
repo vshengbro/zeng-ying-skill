@@ -68,6 +68,14 @@ def main():
     ctrl = [r for r in sun if lo <= r["date"] <= hi]
     ctrl.sort(key=lambda r: (-(r["likes"] or 0), r["date"]))
 
+    # Posts a previous version of this file published must stay published: a
+    # sample that silently disappears is a link a reader can no longer follow.
+    # They are listed as samples but stay out of the counters, which describe
+    # the window only.
+    KEEP = ["1905324113851547790", "2103381476045922470", "2107702108904653126",
+            "2110298951434084799", "2111481862736785824"]
+    ctrl_ids = {r["id"] for r in ctrl}
+
     c = counters(ctrl)
     z = counters(zeng)
     zs = counters([r for r in zeng if not r["text"].lstrip().startswith("@")])
@@ -118,7 +126,10 @@ def main():
     out.append("下面 %d 条是这一窗口里点赞最高的原帖,全文照录;计数表覆盖窗口内全部 %d 条。"
                % (min(SAMPLE_LIMIT, len(ctrl)), c["n"]))
     out.append("")
-    for row in ctrl[:SAMPLE_LIMIT]:
+    shown = ctrl[:SAMPLE_LIMIT]
+    shown_ids = {r["id"] for r in shown}
+    shown += [r for r in sun if r["id"] in KEEP and r["id"] not in shown_ids]
+    for row in shown:
         out.append("### %s · %s likes · %s views · %s"
                    % (row["date"], row["likes"], row["views"], row["url"]))
         out.append("")
