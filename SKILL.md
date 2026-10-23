@@ -25,6 +25,8 @@ when_to_use: 起草中文社交媒体(微博/小红书/中文圈推文)需要"�
 |---|---|
 | 唯一有效 X 账号 | **@zengying1107**(18.06 万粉,1,905 帖,2026-02-11 注册),简介写明"本人只有这一个x账号其他都是假号" |
 | @tenten19901107 | **已封禁**(API 返回 `User is suspended`,页面显示"账号已被冻结")。可作触发词,不可作取材账号 |
+| 曾颖 bio 原文 | 早稻田金融毕业｜TEDx演讲嘉宾｜币圈OG｜forbes u30 china｜34岁退休环游世界｜科技金融博主｜人生是场体验 |
+| 孙宇晨 bio 原文 | Entrepreneur｜Diplomat｜Astronaut #712｜Founder @trondao｜Advisor b.ai / bt.io / htx.com |
 | 本 skill 语料 | @zengying1107 亲笔 **637 条**(时间轴 + 回复 + 站内搜索),2026-02-26 → 2026-10-22 |
 | 语料文件 | `references/tweets.jsonl`(全量)、`references/samples.md`(精选,带赞数与永久链接)、`references/ids.txt`(状态 id) |
 | 重新抓取 | `python3 scripts/harvest_x.py references/ids.txt --out references/tweets.jsonl --stats` |
