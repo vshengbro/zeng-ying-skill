@@ -63,6 +63,13 @@ def main():
     out.append("")
     out.append("实测语料，供 `zeng-ying-style` 的风格判断与自检使用。")
     out.append("")
+    out.append("> **这份文件是按主题/语体编排的阅读副本**，不是全量语料。")
+    out.append("> 全量语料见 [`tweets.jsonl`](tweets.jsonl)（%d 条曾颖原帖，"
+               "带互动数与永久链接）与 [`samples.md`](samples.md)（曾颖精选）。" % len(zeng))
+    out.append("> 孙宇晨的对照语料见 [`sun_samples.md`](sun_samples.md)。")
+    out.append("> 本文件由 `scripts/build_corpus_md.py` 从上述语料生成，"
+               "每段正文都是语料里的原文。")
+    out.append("")
     out.append("## 采集方法")
     out.append("")
     out.append("- 账号：曾颖 `@zengying1107`、孙宇晨 `@justinsuntron` / `@sunyuchentron`")
@@ -70,7 +77,6 @@ def main():
                % (len(zeng), min(r["date"] for r in zeng), max(r["date"] for r in zeng)))
     out.append("- 孙宇晨：同一套采集线，**%d 条**（%s → %s），全量见 `sun-yuchen-skill` 仓库"
                % (len(sun), min(r["date"] for r in sun), max(r["date"] for r in sun)))
-    out.append("- 本文件由 `scripts/build_corpus_md.py` 从 `references/tweets.jsonl` 生成，每段正文都是语料里的原文")
     out.append("- 采集日期：2026-10-23；曾颖推文全部为中文，孙宇晨以英文公关稿为主")
     out.append("")
     out.append("## 账号事实（采集时实测）")
