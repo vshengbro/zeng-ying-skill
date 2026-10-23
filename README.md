@@ -53,8 +53,9 @@ cp -r zeng-ying-style ~/.hermes/skills/
 ## Files
 
 - `SKILL.md` — the skill itself
-- `references/tweets.jsonl` — all 637 harvested posts (id, date, engagement, permalink, text)
-- `references/samples.md` — curated samples grouped by register, each with date, like count and permalink
+- `references/tweets.jsonl` — all 787 harvested posts (id, date, engagement, permalink, text): 637 from @zengying1107, 150 from @justinsuntron
+- `references/samples.md` — curated Zeng Ying samples grouped by register, each with date, like count and permalink
+- `references/sun_samples.md` — the Justin Sun **control group**, same platform and months, a completely different voice
 - `references/corpus.md` — a second reading copy of the corpus, organised by topic instead of by register
 - `references/ids.txt` — the status ids, for re-harvesting
 - `scripts/harvest_x.py` — re-fetch the corpus and print the style statistics
