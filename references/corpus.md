@@ -3,15 +3,15 @@
 实测语料，供 `zeng-ying-style` 的风格判断与自检使用。
 
 > **这份文件是按主题/语体编排的阅读副本**，不是全量语料。
-> 全量语料见 [`tweets.jsonl`](tweets.jsonl)（883 条曾颖原帖，带互动数与永久链接）与 [`samples.md`](samples.md)（曾颖精选）。
+> 全量语料见 [`tweets.jsonl`](tweets.jsonl)（892 条曾颖原帖，带互动数与永久链接）与 [`samples.md`](samples.md)（曾颖精选）。
 > 孙宇晨的对照语料见 [`sun_samples.md`](sun_samples.md)。
 > 本文件由 `scripts/build_corpus_md.py` 从上述语料生成，每段正文都是语料里的原文。
 
 ## 采集方法
 
 - 账号：曾颖 `@zengying1107`、孙宇晨 `@justinsuntron` / `@sunyuchentron`
-- 曾颖：时间轴 + 回复页 + 站内搜索三线采集，**883 条**（2026-02-12 → 2026-10-22）
-- 孙宇晨：同一套采集线，**1451 条**（2020-03-06 → 2026-10-23），全量见 `sun-yuchen-skill` 仓库
+- 曾颖：时间轴 + 回复页 + 站内搜索三线采集，**892 条**（2026-02-12 → 2026-10-22）
+- 孙宇晨：同一套采集线，**1565 条**（2020-03-06 → 2026-10-23），全量见 `sun-yuchen-skill` 仓库
 - 采集日期：2026-10-23；曾颖推文全部为中文，孙宇晨以英文公关稿为主
 
 ## 账号事实（采集时实测）
@@ -1568,7 +1568,7 @@ Kohstyle联名，香蕉鸡男士日抛内裤，一盒七条，穿上它，从此
 人生中，有一点点甜就够了。因为幸福的反面，必然是写好了保质期同等量的痛苦。
 ```
 
-## 三、曾颖：其他长文样本（96 条，全文）
+## 三、曾颖：其他长文样本（98 条，全文）
 
 ### 2026-02-23
 
@@ -3209,6 +3209,28 @@ That then I scorn to change my state with kings.
 日本政府加大在日华人犯罪打击力度，与此同时，中国政府也开始重视在华日本人的犯罪问题，这又怎么不是一种，双向奔赴呢…
 ```
 
+### 2026-06-25
+
+`@zengying1107` — https://x.com/zengying1107/status/2070169813440479331
+
+```text
+如果消息属实，这可能是2026年半导体行业最值得关注的事件之一。
+
+东京应化（TOK）、JSR、信越化学、富士电子材料四家日本光刻胶巨头，据传已停止接受中国ArF/EUV光刻胶新订单，并大幅压缩KrF新增订单，同时撤回全部在华工艺支持团队。如果最终得到官方确认，这意味着影响已经不仅仅是“出口管制”，而是从产品供应限制升级到了技术服务脱钩。
+
+之所以影响如此之大，是因为光刻胶并不是普通化学品。对于先进制程而言，真正关键的不只是材料本身，而是长期驻厂工程师所提供的配方适配、曝光参数优化、良率提升以及制程调试等一整套持续支持。很多晶圆厂能够稳定量产，很大程度依赖供应商工程师长期驻厂协同。一旦技术团队全部撤离，即便库存还能继续使用，也意味着后续工艺优化能力会明显下降。
+
+从中国角度来看，短期内先进制程研发节奏可能放缓，尤其是ArF Immersion及EUV相关产线。如果光刻胶供应周期拉长至6-8个月，将显著增加供应链风险，而KrF若同步缩量，中高端成熟制程也可能受到一定影响。但从中长期来看，这反而可能进一步刺激国产替代。过去几年中国已经持续加大光刻胶研发投入，如果外部供应持续收紧，国内晶圆厂未来更有动力优先验证国产材料、增加国产采购比例并建立第二供应体系，这对于国产光刻胶企业而言既是压力也是历史性机会。
+
+从日本角度来看，其依然牢牢掌握全球高端光刻胶的话语权。EUV光刻胶目前仍高度集中于少数日本企业，先进ArF领域同样具有明显优势。如果减少中国市场销售，一方面可以将有限产能优先配置给TSMC、Samsung、Intel、Rapidus等利润率更高的高端客户，尤其近年来日本企业持续扩大日本及台湾本地产能，本就是为了服务先进制程客户；但另一方面，中国依然是全球最大的成熟制程市场之一，如果长期失去这一市场，也意味着营收承压、国产替代速度进一步提升以及长期市场份额存在被侵蚀风险。
+
+从行业影响来看，日本方面半导体材料、半导体设备、台湾半导体供应链以及日本本土先进材料投资可能受益，尤其未来2nm及High-NA EUV相关材料企业有望继续获得增长机会；中国方面短期情绪偏空，但中长期反而利好国产光刻胶、半导体材料国产替代、国产电子化学品以及半导体设备自主化，因为每一次限制都会进一步推动国产供应链的发展。
+
+从利空角度看，中国的高端晶圆制造、依赖进口ArF/EUV材料的晶圆厂以及部分先进封装研发节奏可能受到冲击，而日本如果限制长期持续，也将失去全球最大的半导体市场之一，长期营收并非没有代价。
+
+总体来看，这已经不是简单的贸易摩擦。未来全球半导体竞争真正决定胜负的，不只是ASML光刻机，而是材料、设备、EDA、IP、人才、供应链以及工程服务的综合体系竞争，竞争已经从单一设备升级为整个产业体系之间的较量。
+```
+
 ### 2026-06-28
 
 `@zengying1107` — https://x.com/zengying1107/status/2071033645264154787
@@ -3527,6 +3549,31 @@ AI 正在从“谁的模型更聪明”，走向“谁能掌握企业入口”�
 最近我已经开始认真研究这个行业了。
 
 说真的，如果近期还要再创业，我大概率会选择做高端相亲。我觉得这是一个既有商业价值，又能真正帮助别人的行业，而且我自己也很喜欢。
+```
+
+### 2026-07-12
+
+`@zengying1107` — https://x.com/zengying1107/status/2076287664463155234
+
+```text
+很多女孩子一直以为，自己感情失败，是因为长得不够漂亮、学历不够高、收入不够多，或者年龄越来越大，所以竞争力下降了。但我越来越觉得，大多数时候都不是这些原因，而是情绪管理出了问题。
+
+很多女生其实个人条件很好，有学历、有事业、有颜值、有见识，放到相亲市场或者社交平台上，都属于别人眼里的高价值女性。可一旦进入亲密关系，就完全变了一个人。她会因为对方回复慢一点开始焦虑，因为一天没有联系就开始胡思乱想，因为一句话反复揣测对方是不是不爱自己了。她需要不断确认关系、不断索取安全感、不断证明自己是被爱的，甚至把自己的情绪稳定完全建立在另一个人的反馈上。于是，恋爱慢慢从两个人一起享受关系，变成了一个人不断索取情绪，一个人不断负责安抚情绪。
+
+如果用一个很功利、很现实的视角来看待亲密关系，我一直觉得，一个人的真正价值，并不是个人价值本身。
+
+而是：
+剩余价值 = 个人价值 − 情绪成本。
+
+这里的情绪成本，包括你的焦虑、猜疑、控制欲、依赖感、玻璃心，以及需要别人不断提供情绪价值才能维持稳定的能力。你的学历、收入、外貌、能力、资源，这些当然都是个人价值；但与此同时，如果你需要别人二十四小时陪伴、秒回消息、不断报备、不断证明爱你，需要对方随时接住你的情绪、承担你的不安全感，那么这些都会成为对方需要持续支付的成本。真正决定一段关系体验的，不是你拥有多少价值，而是在扣掉这些情绪成本之后，你还剩下多少价值。
+
+很多人一直拼命提高前半部分，却从来没有降低后半部分。她今天去健身，明天去医美，后天去读MBA，事业越来越成功，收入越来越高，社交圈越来越优质，看起来个人价值一直在上涨。但与此同时，她的情绪需求也在同步膨胀。她要求秒回、要求报备、要求陪伴、要求时刻被坚定选择，任何一点点忽略都会演变成巨大的情绪波动。最后就会出现一种很残酷的情况：你的个人价值可能有100分，但你的情绪成本已经到了300分，那你的剩余价值就是负200分。别人感受到的不是你的100分，而是每天都要额外承担300分的情绪成本。
+
+很多女生觉得，只要找到一个足够爱自己的人，这些问题自然都会解决。但事实恰恰相反。情绪需求像黑洞一样的人，再爱你的人，最后也会被一点一点耗尽。因为没有任何一个成年人，可以长期承担另一个成年人全部的情绪。今天要安慰你的焦虑，明天要处理你的不安全感，后天又要证明自己没有变心。时间久了，对方不是不爱了，而是累了。爱情并不是总被第三者打败，也不是总被现实打败，很多时候，就是被无休止的情绪消耗慢慢磨没了。
+
+真正成熟的人，不是没有情绪，而是能够自己消化情绪。真正高价值的人，也不是条件最好的人，而是相处成本最低的人。和这样的人在一起，不需要时时刻刻提供情绪价值，不需要每天做情绪救火员，也不会因为一句话、一个表情、一条消息就陷入情绪风暴。相反，对方会觉得和你在一起很轻松、很稳定、很舒服，会觉得你是在给生活增加能量，而不是不断制造消耗。
+
+所以我越来越觉得，一个人在感情里的吸引力，不是看你拥有多少，而是看你消耗多少。从一个很现实、甚至有点残酷的角度来说，真正决定一个人在亲密关系里的价值，从来都不是学历、外貌、财富这些标签，而是剩余价值。如果你的情绪需求像黑洞一样，无论你本身有多优秀、多漂亮、多有钱，最后的剩余价值都有可能是负数，而且越优秀的人，往往越会算这笔账。因为没有人愿意长期投资一段需要不断填补情绪黑洞，却始终看不到尽头的关系。
 ```
 
 ### 2026-07-16
@@ -4875,22 +4922,6 @@ beast
 
 ### 2026-10-01
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2105534423647375711
-
-```text
-波场生态在美国二次敲钟了！未来机会会越来越多
-```
-
-### 2026-10-01
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2105534856776274428
-
-```text
-https://B.AI 已支持 @WalletConnect
-```
-
-### 2026-10-01
-
 `@justinsuntron` — https://x.com/justinsuntron/status/2105536688768385093
 
 ```text
@@ -4915,20 +4946,20 @@ That’s how the #JustinSunPrize is structured.
 连续增持252天 @TRON_INC
 ```
 
-### 2026-10-02
+### 2026-10-01
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2105827426249199948
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2105534423647375711
 
 ```text
-全部支持TRXS
+波场生态在美国二次敲钟了！未来机会会越来越多
 ```
 
-### 2026-10-02
+### 2026-10-01
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2105827565328032217
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2105534856776274428
 
 ```text
-连续增持252天 @TRON_INC
+https://B.AI 已支持 @WalletConnect
 ```
 
 ### 2026-10-02
@@ -4953,18 +4984,42 @@ See you soon
 
 ### 2026-10-02
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2105949235242004578
-
-```text
-新加坡见 🇸🇬
-```
-
-### 2026-10-02
-
 `@justinsuntron` — https://x.com/justinsuntron/status/2105966474137653362
 
 ```text
 Hong Kong Fireworks, Speed Run 🎆
+```
+
+### 2026-10-02
+
+`@justinsuntron` — https://x.com/justinsuntron/status/2106012535103377818
+
+```text
+Defi TRON szn on @BinanceWallet
+```
+
+### 2026-10-02
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2105827426249199948
+
+```text
+全部支持TRXS
+```
+
+### 2026-10-02
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2105827565328032217
+
+```text
+连续增持252天 @TRON_INC
+```
+
+### 2026-10-02
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2105949235242004578
+
+```text
+新加坡见 🇸🇬
 ```
 
 ### 2026-10-02
@@ -4981,22 +5036,6 @@ Hong Kong Fireworks, Speed Run 🎆
 
 ```text
 一切才刚刚开始！10月继续
-```
-
-### 2026-10-02
-
-`@justinsuntron` — https://x.com/justinsuntron/status/2106012535103377818
-
-```text
-Defi TRON szn on @BinanceWallet
-```
-
-### 2026-10-03
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2106217976240431342
-
-```text
-TRON嘉年华第三季即将在@BinanceWallet 火热开启
 ```
 
 ### 2026-10-03
@@ -5051,22 +5090,12 @@ https://B.AI 热门模型折扣权益更新
 Congratulations to Wouter van Doorn, Yanyang Li, and Quanyu Tang on their solutions to problems from the Erdős catalogue.
 ```
 
-### 2026-10-04
+### 2026-10-03
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2106537297588203581
-
-```text
-https://B.AI 热门模型折扣权益更新
-
-自 10 月 4 日 10:00 (SGT) 起，https://B.AI 热门模型全新多档优惠矩阵将正式上线！折上加折！
-```
-
-### 2026-10-04
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2106537517537464783
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2106217976240431342
 
 ```text
-祝贺Wouter van Doorn、Yanyang Li 和 Quanyu Tang，成功解决Erdős问题目录中的相关问题并获奖。
+TRON嘉年华第三季即将在@BinanceWallet 火热开启
 ```
 
 ### 2026-10-04
@@ -5119,6 +5148,40 @@ Singapore, see you soon. A fireside chat with @KevinWSHPod at @token2049
 See you in Singapore 🇸🇬
 ```
 
+### 2026-10-04
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2106537297588203581
+
+```text
+https://B.AI 热门模型折扣权益更新
+
+自 10 月 4 日 10:00 (SGT) 起，https://B.AI 热门模型全新多档优惠矩阵将正式上线！折上加折！
+```
+
+### 2026-10-04
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2106537517537464783
+
+```text
+祝贺Wouter van Doorn、Yanyang Li 和 Quanyu Tang，成功解决Erdős问题目录中的相关问题并获奖。
+```
+
+### 2026-10-04
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2106537751256678897
+
+```text
+全球最去中心化的智能合约基础设施
+```
+
+### 2026-10-04
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2106577278394392631
+
+```text
+很高兴看到波场TRON参与KBW的代币化讨论。继续建设💪
+```
+
 ### 2026-10-05
 
 `@justinsuntron` — https://x.com/justinsuntron/status/2107108473897103556
@@ -5133,14 +5196,6 @@ See you in 🇸🇬
 
 ```text
 一起定投质押领收益！
-```
-
-### 2026-10-05
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2107119508616081428
-
-```text
-新加坡见🇸🇬
 ```
 
 ### 2026-10-05
@@ -5165,6 +5220,14 @@ See you in 🇸🇬
 全球唯一一家只有老板自己在用的交易所。
 
 孤独到极致，也是一种自由。
+```
+
+### 2026-10-05
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2107119508616081428
+
+```text
+新加坡见🇸🇬
 ```
 
 ### 2026-10-05
@@ -5197,6 +5260,14 @@ Many more breakthroughs to come.
 
 ### 2026-10-06
 
+`@justinsuntron` — https://x.com/justinsuntron/status/2107413054812213555
+
+```text
+See you tomorrow at DAS Asia. In conversation with @MikeIppolito_ at 3:30 PM SGT.
+```
+
+### 2026-10-06
+
 `@sunyuchentron` — https://x.com/sunyuchentron/status/2107330390692339824
 
 ```text
@@ -5205,14 +5276,6 @@ Many more breakthroughs to come.
 这只是我们不断拓展数学边界的第一步，同时激励更多人挑战那些曾经被认为遥不可及的难题。
 
 更多突破，即将到来。
-```
-
-### 2026-10-06
-
-`@justinsuntron` — https://x.com/justinsuntron/status/2107413054812213555
-
-```text
-See you tomorrow at DAS Asia. In conversation with @MikeIppolito_ at 3:30 PM SGT.
 ```
 
 ### 2026-10-06
@@ -5249,34 +5312,10 @@ A STRONg September for TRON. 💪
 
 ### 2026-10-07
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2107660863327158357
-
-```text
-$JST 上线 @UpholdInc !
-```
-
-### 2026-10-07
-
 `@justinsuntron` — https://x.com/justinsuntron/status/2107674692610056508
 
 ```text
 以后机会还很多，波场生态总不缺机会
-```
-
-### 2026-10-07
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2107694249936629903
-
-```text
-TRXS 是波场拓展传统金融市场版图的重要一步，未来已来
-```
-
-### 2026-10-07
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2107696923012387071
-
-```text
-欢迎来玩
 ```
 
 ### 2026-10-07
@@ -5297,22 +5336,6 @@ TRXS 是波场拓展传统金融市场版图的重要一步，未来已来
 
 ### 2026-10-07
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2107702459246227501
-
-```text
-以后机会还很多，波场生态总不缺机会
-```
-
-### 2026-10-07
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2107731599345545223
-
-```text
-一个自嘲的玩笑，被认真解读成了"自白"。说明一下：Poloniex服务用户，数据公开透明。幽默感还是要有的，事实也是要讲的。😎
-```
-
-### 2026-10-07
-
 `@justinsuntron` — https://x.com/justinsuntron/status/2107782581815218625
 
 ```text
@@ -5323,28 +5346,10 @@ Good conversation with @MikeIppolito_ at DAS Asia.
 
 ### 2026-10-07
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2107792266681254323
-
-```text
-稳定币的潜力远未释放，波场TRON正在为下一阶段持续构建。🔻
-
-很高兴在DAS Asia与 @MikeIppolito_ 进行交流。
-```
-
-### 2026-10-07
-
 `@justinsuntron` — https://x.com/justinsuntron/status/2107793162358210991
 
 ```text
 Challenge accepted, @cz_binance ! I’m giving myself one year to get in shape and recreate this photo. No AI, no Photoshop, just hard work. Hold me to it, everyone! 💪
-```
-
-### 2026-10-07
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2107794314906710053
-
-```text
-👀
 ```
 
 ### 2026-10-07
@@ -5365,6 +5370,72 @@ With more than $94B in USDT circulating on TRON, integrations like this can help
 As advanced as AI is today, there is still a long way to go before it’s more widely accepted.
 
 But the direction is clear. AI making onchain decisions, managing wallets, and transacting autonomously is inevitable.
+```
+
+### 2026-10-07
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2107660863327158357
+
+```text
+$JST 上线 @UpholdInc !
+```
+
+### 2026-10-07
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2107694249936629903
+
+```text
+TRXS 是波场拓展传统金融市场版图的重要一步，未来已来
+```
+
+### 2026-10-07
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2107696923012387071
+
+```text
+欢迎来玩
+```
+
+### 2026-10-07
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2107702459246227501
+
+```text
+以后机会还很多，波场生态总不缺机会
+```
+
+### 2026-10-07
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2107731599345545223
+
+```text
+一个自嘲的玩笑，被认真解读成了"自白"。说明一下：Poloniex服务用户，数据公开透明。幽默感还是要有的，事实也是要讲的。😎
+```
+
+### 2026-10-07
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2107792266681254323
+
+```text
+稳定币的潜力远未释放，波场TRON正在为下一阶段持续构建。🔻
+
+很高兴在DAS Asia与 @MikeIppolito_ 进行交流。
+```
+
+### 2026-10-07
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2107794314906710053
+
+```text
+👀
+```
+
+### 2026-10-07
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2107795728190087641
+
+```text
+接受挑战，@cz_binance！ 我给自己一年的时间塑形并重现这张照片。没有AI，没有Photoshop，只有刻苦锻炼。请所有人都监督我吧！ 💪
 ```
 
 ### 2026-10-08
@@ -5407,6 +5478,32 @@ Bringing major stocks onchain could help drive that growth and give people in As
 👋下次再见
 ```
 
+### 2026-10-08
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2108000760386769198
+
+```text
+波场TRON 与 @0xPolygon Open Money Stack 的集成，为企业在不同支付环境中转移USDT提供了更多路径。
+
+波场TRON上USDT流通量已超过940亿美元，此类集成有助于将链上活动与日常支付连接起来。
+```
+
+### 2026-10-09
+
+`@justinsuntron` — https://x.com/justinsuntron/status/2108432009869906346
+
+```text
+.@0xPolygon Open Money Stack now supports TRON!
+```
+
+### 2026-10-09
+
+`@justinsuntron` — https://x.com/justinsuntron/status/2108464983822504352
+
+```text
+Curious about the Erdős problems? This is a good place to start. #JustinSunPrize
+```
+
 ### 2026-10-09
 
 `@sunyuchentron` — https://x.com/sunyuchentron/status/2108399430827417711
@@ -5429,36 +5526,12 @@ AI 正在重塑创新速度，奖励机制也应随之进化。
 
 ### 2026-10-09
 
-`@justinsuntron` — https://x.com/justinsuntron/status/2108432009869906346
-
-```text
-.@0xPolygon Open Money Stack now supports TRON!
-```
-
-### 2026-10-09
-
-`@justinsuntron` — https://x.com/justinsuntron/status/2108464983822504352
-
-```text
-Curious about the Erdős problems? This is a good place to start. #JustinSunPrize
-```
-
-### 2026-10-09
-
 `@sunyuchentron` — https://x.com/sunyuchentron/status/2108505825761525937
 
 ```text
 $TRXS 正式上市，这是波场走向全球主流金融市场的重要一步。
 
 新的里程碑，也是新的开始。
-```
-
-### 2026-10-10
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2108781080853770363
-
-```text
-想了解Erdős问题？不妨从这里开始。#孙宇晨奖
 ```
 
 ### 2026-10-10
@@ -5481,6 +5554,24 @@ We're committed to keeping user assets secure, and TRON is set to be one of the 
 4.5 小时深度对谈，不讲空话。
 全网免费观看，看完你会知道：
 AI 时代，机会在哪里，你该如何上车！
+```
+
+### 2026-10-10
+
+`@justinsuntron` — https://x.com/justinsuntron/status/2108870154113429597
+
+```text
+Had a blast at @TOKEN2049! Always a pleasure visiting Singapore and connecting with so many great minds in the industry.
+
+Thank you to everyone who made this week special. Looking forward to continuing our work to strengthen TRON’s infrastructure for institutional adoption, tokenized assets, and agentic AI.
+```
+
+### 2026-10-10
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2108781080853770363
+
+```text
+想了解Erdős问题？不妨从这里开始。#孙宇晨奖
 ```
 
 ### 2026-10-10
@@ -5515,16 +5606,6 @@ AI 时代，机会在哪里，你该如何上车！
 让区块链真正服务更多人，我们会继续向前。
 ```
 
-### 2026-10-10
-
-`@justinsuntron` — https://x.com/justinsuntron/status/2108870154113429597
-
-```text
-Had a blast at @TOKEN2049! Always a pleasure visiting Singapore and connecting with so many great minds in the industry.
-
-Thank you to everyone who made this week special. Looking forward to continuing our work to strengthen TRON’s infrastructure for institutional adoption, tokenized assets, and agentic AI.
-```
-
 ### 2026-10-11
 
 `@justinsuntron` — https://x.com/justinsuntron/status/2109202483432321043
@@ -5535,34 +5616,10 @@ Thank you to everyone who made this week special. Looking forward to continuing 
 
 ### 2026-10-12
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2109482832699777062
-
-```text
-🤣🤣🤣
-```
-
-### 2026-10-12
-
 `@justinsuntron` — https://x.com/justinsuntron/status/2109495508217819571
 
 ```text
 Keep buying
-```
-
-### 2026-10-12
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2109495829728010536
-
-```text
-Keep buying
-```
-
-### 2026-10-12
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2109535001645826058
-
-```text
-孙学十级选手
 ```
 
 ### 2026-10-12
@@ -5607,6 +5664,38 @@ Build the right infrastructure, and scale becomes a matter of time. TRON is buil
 
 ```text
 体验波场抗量子
+```
+
+### 2026-10-12
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2109482832699777062
+
+```text
+🤣🤣🤣
+```
+
+### 2026-10-12
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2109495829728010536
+
+```text
+Keep buying
+```
+
+### 2026-10-12
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2109535001645826058
+
+```text
+孙学十级选手
+```
+
+### 2026-10-12
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2109557760589545975
+
+```text
+🐮 #波场USDT 继续占据全球USDT过半份额
 ```
 
 ### 2026-10-13
@@ -5656,34 +5745,10 @@ Turning value into a language machines can understand. That’s what TRON does.�
 
 ### 2026-10-14
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2110213205637402765
-
-```text
-All in AI
-```
-
-### 2026-10-14
-
 `@justinsuntron` — https://x.com/justinsuntron/status/2110264252162519468
 
 ```text
 一切才刚刚开始
-```
-
-### 2026-10-14
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2110264630602043478
-
-```text
-一切才刚刚开始
-```
-
-### 2026-10-14
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2110283359431876696
-
-```text
-孙学第二卷，看年轻人如何在AI时代叠满Buff
 ```
 
 ### 2026-10-14
@@ -5696,23 +5761,7 @@ All in AI
 
 ### 2026-10-14
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2110299465731256332
-
-```text
-波场收入全部归波场网络与TRX质押者所有
-```
-
-### 2026-10-14
-
 `@justinsuntron` — https://x.com/justinsuntron/status/2110299945228247116
-
-```text
-表现不错
-```
-
-### 2026-10-14
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2110302592408732114
 
 ```text
 表现不错
@@ -5736,31 +5785,7 @@ https://B.AI Now Supports 11 Languages
 
 ### 2026-10-14
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2110305955812614612
-
-```text
-$TRX 唯一上涨主流代币
-```
-
-### 2026-10-14
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2110306713710854367
-
-```text
-https://B.AI 已支持11种语言
-```
-
-### 2026-10-14
-
 `@justinsuntron` — https://x.com/justinsuntron/status/2110312980923789325
-
-```text
-协议收入全部以去中心化的形式全额返还波场网络与TRX质押者
-```
-
-### 2026-10-14
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2110314267971113452
 
 ```text
 协议收入全部以去中心化的形式全额返还波场网络与TRX质押者
@@ -5790,6 +5815,70 @@ Binance Wallet TRON Carnival Season 3!
 Two problems solved and formally verified. 
 
 Good to see Neel Somani’s work recognized with two @JustinSunPrize awards.
+```
+
+### 2026-10-14
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2110213205637402765
+
+```text
+All in AI
+```
+
+### 2026-10-14
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2110264630602043478
+
+```text
+一切才刚刚开始
+```
+
+### 2026-10-14
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2110283359431876696
+
+```text
+孙学第二卷，看年轻人如何在AI时代叠满Buff
+```
+
+### 2026-10-14
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2110299465731256332
+
+```text
+波场收入全部归波场网络与TRX质押者所有
+```
+
+### 2026-10-14
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2110302592408732114
+
+```text
+表现不错
+```
+
+### 2026-10-14
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2110305955812614612
+
+```text
+$TRX 唯一上涨主流代币
+```
+
+### 2026-10-14
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2110306713710854367
+
+```text
+https://B.AI 已支持11种语言
+```
+
+### 2026-10-14
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2110314267971113452
+
+```text
+协议收入全部以去中心化的形式全额返还波场网络与TRX质押者
 ```
 
 ### 2026-10-15
@@ -5824,6 +5913,23 @@ Moving Trillions, Empowering Billions.
 
 ```text
 Good mathematical work deserves recognition. @JustinSunPrize aims to make that happen sooner, including for people working with AI.
+```
+
+### 2026-10-15
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2110527486878679350
+
+```text
+🤣百年深耕，终身创业
+```
+
+### 2026-10-15
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2110527599592210701
+
+```text
+祝贺Neel Somani！孙宇晨奖第二批获奖者已正式确认。
+期待更多研究者踊跃参与，一起探索数学前沿。
 ```
 
 ### 2026-10-16
@@ -5884,6 +5990,14 @@ BTT 首次回购销毁21.62万亿枚，占总供应量2.18%！
 
 ### 2026-10-18
 
+`@justinsuntron` — https://x.com/justinsuntron/status/2111828025818136962
+
+```text
+😁
+```
+
+### 2026-10-18
+
 `@sunyuchentron` — https://x.com/sunyuchentron/status/2111610431873909085
 
 ```text
@@ -5898,33 +6012,9 @@ $TRX 销毁全球第一，如今波场TRON生态 just:native $BTT $HTX $SUN $WIN
 BTT 首次回购销毁21.62万亿枚，占总供应量2.18%！
 ```
 
-### 2026-10-18
-
-`@justinsuntron` — https://x.com/justinsuntron/status/2111828025818136962
-
-```text
-😁
-```
-
-### 2026-10-19
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2112036789393502470
-
-```text
-机会一直都在
-```
-
 ### 2026-10-19
 
 `@justinsuntron` — https://x.com/justinsuntron/status/2112078285173915887
-
-```text
-DS新版来了
-```
-
-### 2026-10-19
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2112081456650756282
 
 ```text
 DS新版来了
@@ -5956,6 +6046,38 @@ ethereum:0x4f8e5de400de08b164e7421b3ee387f461becd1a 🔥
 
 ### 2026-10-19
 
+`@justinsuntron` — https://x.com/justinsuntron/status/2112158914502603210
+
+```text
+.@MiniMax_AI M3.1 Flash is now live on https://B.AI
+```
+
+### 2026-10-19
+
+`@justinsuntron` — https://x.com/justinsuntron/status/2112186273612055033
+
+```text
+$WIN 销毁正式开启！
+```
+
+### 2026-10-19
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2112036789393502470
+
+```text
+机会一直都在
+```
+
+### 2026-10-19
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2112081456650756282
+
+```text
+DS新版来了
+```
+
+### 2026-10-19
+
 `@sunyuchentron` — https://x.com/sunyuchentron/status/2112111173848137835
 
 ```text
@@ -5980,14 +6102,6 @@ Keep building
 
 ### 2026-10-19
 
-`@justinsuntron` — https://x.com/justinsuntron/status/2112158914502603210
-
-```text
-.@MiniMax_AI M3.1 Flash is now live on https://B.AI
-```
-
-### 2026-10-19
-
 `@sunyuchentron` — https://x.com/sunyuchentron/status/2112164483967909970
 
 ```text
@@ -5996,26 +6110,10 @@ Keep building
 
 ### 2026-10-19
 
-`@justinsuntron` — https://x.com/justinsuntron/status/2112186273612055033
-
-```text
-$WIN 销毁正式开启！
-```
-
-### 2026-10-19
-
 `@sunyuchentron` — https://x.com/sunyuchentron/status/2112188227251810526
 
 ```text
 $WIN 销毁正式开启！
-```
-
-### 2026-10-20
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2112339900226044372
-
-```text
-技术变革浪潮下，我们需要更加重视加密资产的安全与未来。
 ```
 
 ### 2026-10-20
@@ -6032,6 +6130,30 @@ $9.7M in Q3 treasury. Good progress for USDD.
 
 ```text
 As of 30 September, approximately 73% of all stablecoin volume settled on #TRON, the highest share of any chain, with Ethereum second at 15%.
+```
+
+### 2026-10-20
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2112339900226044372
+
+```text
+技术变革浪潮下，我们需要更加重视加密资产的安全与未来。
+```
+
+### 2026-10-20
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2112375352265953496
+
+```text
+USDD Q3金库收入达970万美元，表现不错
+```
+
+### 2026-10-20
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2112391574823067983
+
+```text
+体验大于结论，也大于意义
 ```
 
 ### 2026-10-21
@@ -6104,14 +6226,6 @@ $HTX PWA is live now!
 
 ### 2026-10-22
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2113265231359324302
-
-```text
-波场 #TRON 总账户数突破4.1亿！一切才刚刚开始
-```
-
-### 2026-10-22
-
 `@justinsuntron` — https://x.com/justinsuntron/status/2113268105183186962
 
 ```text
@@ -6136,14 +6250,12 @@ Both matter for #JustinSunPrize.
 稳步前进， $TRON 越来越好！
 ```
 
-### 2026-10-23
+### 2026-10-22
 
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2113460832776716438
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2113265231359324302
 
 ```text
-AI助力数学求解，Lean验证证明的逻辑正确性。
-
-两者对 #孙宇晨奖 都很重要。
+波场 #TRON 总账户数突破4.1亿！一切才刚刚开始
 ```
 
 ### 2026-10-23
@@ -6152,14 +6264,6 @@ AI助力数学求解，Lean验证证明的逻辑正确性。
 
 ```text
 Tokenized equities and US Treasuries are part of the plan for TRON. 🔻
-```
-
-### 2026-10-23
-
-`@sunyuchentron` — https://x.com/sunyuchentron/status/2113471492742930453
-
-```text
-将代币化股票及美国国债引入波场网络是接下来的重点 🔻
 ```
 
 ### 2026-10-23
@@ -6173,6 +6277,50 @@ $TRON 想象空间更大了
 ### 2026-10-23
 
 `@justinsuntron` — https://x.com/justinsuntron/status/2113489885810360509
+
+```text
+Keep going
+```
+
+### 2026-10-23
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2113460832776716438
+
+```text
+AI助力数学求解，Lean验证证明的逻辑正确性。
+
+两者对 #孙宇晨奖 都很重要。
+```
+
+### 2026-10-23
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2113471492742930453
+
+```text
+将代币化股票及美国国债引入波场网络是接下来的重点 🔻
+```
+
+### 2026-10-23
+
+`@justinsuntron` — https://x.com/justinsuntron/status/2113497973024018452
+
+```text
+The SYZ Conjecture has challenged researchers for 30 years.
+
+@JustinSunPrize is here to support the work that moves it forward.
+```
+
+### 2026-10-23
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2113498684428304862
+
+```text
+$TRON 想象空间更大了
+```
+
+### 2026-10-23
+
+`@sunyuchentron` — https://x.com/sunyuchentron/status/2113498843304329383
 
 ```text
 Keep going

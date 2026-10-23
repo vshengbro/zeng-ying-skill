@@ -2,7 +2,7 @@
 
 The Zeng Ying skill needs a control group: the same platform, the same months, a completely different voice. This is that control group.
 
-实测采集 **673 条**孙宇晨原帖(`@justinsuntron` 382 条 + `@sunyuchentron` 291 条,2026-02-12 → 2026-10-22),全文 + 互动数。窗口与曾颖语料完全重合。
+实测采集 **784 条**孙宇晨原帖(`@justinsuntron` 429 条 + `@sunyuchentron` 355 条,2026-02-12 → 2026-10-22),全文 + 互动数。窗口与曾颖语料完全重合。
 
 由 `scripts/build_sun_samples.py` 生成;全量语料见 `sun-yuchen-skill` 仓库。
 
@@ -10,13 +10,13 @@ The Zeng Ying skill needs a control group: the same platform, the same months, a
 
 | 指标 | 实测值 |
 | --- | --- |
-| 正文长度 | 中位数 21 字,平均 73 字 |
-| 语种 | 中文 354 条(53%),英文 319 条(47%) |
+| 正文长度 | 中位数 21 字,平均 71 字 |
+| 语种 | 中文 426 条(54%),英文 358 条(46%) |
 | 句末无标点直接断 | 64%(另有 9% 以 emoji 收尾) |
-| 句号收尾 | 19% |
+| 句号收尾 | 18% |
 | **感叹号收尾** | **17%** |
 | 含 emoji | 12%,单条最多 4 个 |
-| 含 hashtag | 4%,单条最多 1 个 |
+| 含 hashtag | 4%,单条最多 4 个 |
 
 **三段式,和曾颖的白描散文完全相反:**
 
@@ -30,7 +30,7 @@ The Zeng Ying skill needs a control group: the same platform, the same months, a
 
 ## 样本（同一时间窗内按点赞排序，取前 150 条）
 
-下面 150 条是这一窗口里点赞最高的原帖,全文照录;计数表覆盖窗口内全部 673 条。
+下面 150 条是这一窗口里点赞最高的原帖,全文照录;计数表覆盖窗口内全部 784 条。
 
 ### 2026-08-27 · 68342 likes · 45119607 views · https://x.com/justinsuntron/status/2092932777612390850
 
@@ -108,6 +108,46 @@ https://x.com/i/article/2092711089305948160
 我知道这句话会被比我年青的人修改。我期待被修改。
 
 三十年后，如果有年青人拿着更好的答案来找我们，希望您和我都还在，都还愿意听。
+
+孙宇晨
+```
+
+### 2026-09-01 · 8070 likes · 2142187 views · https://x.com/sunyuchentron/status/2094700160429244690
+
+```text
+《致胡锡进老师》
+
+胡锡进老师：
+
+您第二篇文章的最后一句是，做人还是要老实、厚道一些。我想老实地向您请教一件事。
+
+我是一九九零年生人，今年三十六岁，到了婚育的年纪。您是长辈，比我大整三十岁，我读北大的时候就读您的文章，所以这件事我想问您，不想问别人。
+
+全中国二十岁到四十岁的男性有两亿，女性也有两亿。她们那一边的代价，不该由我来说，我只说我这一边。
+
+怎么和女性相处，怎么组成家庭，怎么生儿育女，这条路我们没有走过，没有人教过我们，我们不懂。旁人看这些是吃瓜，对这两亿人，这是每天早上醒来就要面对的事。
+
+我不知道，一个中国男人是否应当支付高额的彩礼；如果应当，是按定额，还是按他财产的比例。
+
+我不知道，生育这件事，男方应当为它付出多少代价。
+
+我不知道，婚前婚后女方提出的要求，男方是否都应当满足；如果没有满足、女方离开，男方是否有权取回彩礼；女方拒绝，男方是否可以走法律途径。
+
+我也不知道，一个男人礼数尽了，父母见了，分手很久，钱要不回来，人也找不到之后，是否有权向公众说出自己的看法。我选了说。这对不对？
+
+这些问题，我没有答案。有些问题，国家有它的答案，一号文件写了，最高法也出了解释，我读过，也信；但文件写在纸上，彩礼谈在饭桌上，中间隔着现实的规矩。您是长辈，您的答案，我也尊重，就像我对法院最终的彩礼判决无条件尊重一样。
+
+彩礼总归是要付的。天南地北，白丁鸿儒，无非是三万、三十万、三百万、三千万的分别。这是两亿青年男性都要承受的代价，我们认。
+
+一个人算不清一笔账的时候，最稳妥的做法是不算。我出生的一九九零年，全国出生了两千三百多万人；去年，七百九十二万，建国以来最少。
+
+我不认为这全是一笔账的缘故，但少的那三分之二里，很多人不是不想，是不知道这条路上要付什么、付多少、付了之后算不算数。人不会因为代价高而退出，退出，是因为看不见代价的边在哪里。
+
+这个代价的规则究竟是什么，我们不知道。
+
+两亿人在等这个答案，因为这是他们成家的第一步，也将决定未来三十年这个国家由谁组成。
+
+我今天没有答案。我希望三十年后，有年轻人来问我这个问题的时候，我能给他一个。
 
 孙宇晨
 ```
@@ -204,6 +244,12 @@ Turning value into a language machines can understand. That’s what TRON does.�
 我做的东西，绝大多数使用它的人不认识我，也不需要相信我的人品，他们只需要相信规则本身。这件事教育了我。
 ```
 
+### 2026-09-09 · 3574 likes · 1351253 views · https://x.com/justinsuntron/status/2097636086201892967
+
+```text
+版本答案
+```
+
 ### 2026-09-16 · 3323 likes · 1590728 views · https://x.com/justinsuntron/status/2100134007984029904
 
 ```text
@@ -270,6 +316,22 @@ AI时代所有优点都不重要了，你只需要保持一个优点----听劝�
 36岁，去其他公司也不会被录取了，只能在自己公司背水一战，正是闯的年纪！
 ```
 
+### 2026-09-09 · 2156 likes · 497286 views · https://x.com/justinsuntron/status/2097631850118484030
+
+```text
+孙学，黄毛，薄肌这套新版本答案，只要愿意学，这个大结果谁都能拿到，而高富帅都要求先天性，普通人很难参与进来。
+
+孙学，黄毛，薄肌，是正能量的，理由很简单：门槛。
+
+高富帅三个字里，高是基因，帅是基因，富是父母。普通人不是不想学，是根本没有入场资格，这是一套先天分配的游戏，后天努力只能在边缘做微调。所以高富帅崇拜本质上是让大多数人给少数人当观众。
+
+孙学、黄毛、薄肌恰恰相反，三样没有一样要求先天条件。孙学上闲鱼直接买一本，大脑操作系统立刻安装，黄毛不需要出身，先出手不需要身高，薄肌一天三十分钟谁都练得出来。它们的共同点是把"能不能"的问题全部换成"愿不愿意"的问题。愿意学就能拿到结果，不愿意学就不能，中间没有基因和家庭挡着。
+
+大压抑时代真正压抑的，是那些还在等先天条件到位才肯出场的人。版本答案不是给天选之子的，是给所有肯下场的人的，这才是它比高富帅进步的地方。
+
+孙学，黄毛，薄肌，你准备好了吗？
+```
+
 ### 2026-09-01 · 2049 likes · 1312791 views · https://x.com/justinsuntron/status/2094689041551880253
 
 ```text
@@ -316,6 +378,28 @@ USDD流通15亿美元，抵押情况链上可验，随存随提。
 过去的事情就让它过去，一切向前看。
 
 AI已来，趁年轻，还能做点事情，就去做吧。
+```
+
+### 2026-08-06 · 1843 likes · 482586 views · https://x.com/sunyuchentron/status/2085291427492426156
+
+```text
+刚进北大的时候，我对自己的数学水平有一个非常大胆的判断。
+
+于是，我跑去跟数学系的同学一起上数学分析。
+
+刚开始还能听懂。后来低头捡了支笔，再抬头，黑板已经写满了。
+
+那一刻我想明白了。
+
+尊重数学，及时退课。
+
+多年以后再看北大07级，真的有人沿着这条路，一直走到了世界数学的最前沿。
+
+再次祝贺王虹、邓煜获得菲尔兹奖。
+
+祝贺中国青年在世界最顶尖的领域里，靠真正过硬的成果赢得了尊重。
+
+#王虹 #邓煜 #北大07级 #菲尔兹奖
 ```
 
 ### 2026-05-11 · 1808 likes · 843823 views · https://x.com/justinsuntron/status/2053882538146533548
@@ -416,6 +500,50 @@ AI 时代，机会在哪里，你该如何上车！
 国庆都去哪里玩
 ```
 
+### 2026-09-16 · 1301 likes · 862970 views · https://x.com/sunyuchentron/status/2100134948468674937
+
+```text
+我为什么要设立孙宇晨奖
+
+一
+诺贝尔发明了炸药。他一生的财富，大部分来自这件东西。
+据说1888年，一家法国报纸误发了他的讣告，标题叫"死亡商人死了"。他读到了自己的讣告，几年后立了遗嘱。
+今天没有人再叫他死亡商人。
+"诺贝尔"变成了一个中性的名词，像"伏特"和"瓦特"一样，不带感情，只是一个单位。他把钱交给"对人类做出最大贡献的人"，钱回到了人类手里，他的名字也随之回归中立，不是靠辩护，是靠一百多年的获奖名单。
+我讲这个故事，是因为我理解他。我知道钱从哪里来，也知道钱可以去哪里。
+
+二
+我的财富，根源是数学。
+区块链这个行业，整体建立在几个长期研究支撑的密码学构造与安全假设上：椭圆曲线上的离散对数难解，哈希函数不可逆，大数难以分解。1985年，两个数学家各自想到可以用椭圆曲线做密码，一个在大学，一个在IBM，互不相识。那年没有人觉得这件事有用。他们在黑板上写下的东西，后来变成了一个万亿美元的市场，变成了一种前所未有的东西——一个人可以完全支配自己的财富，不需要任何人许可。他们自己，一分钱没有拿到。
+这种自由，是数学对人类最被低估的馈赠之一。我从这份馈赠里拿走了很多。设立这个奖，首先是还债。
+
+三
+诺贝尔奖没有数学奖。这是一百多年前的一个疏漏，也许有私人原因，也许只是没想到。
+后来有了菲尔兹奖，四年一次，四十岁以下；有了阿贝尔奖，每年一次，奖励一生的成就。它们都很好，但它们的节奏，是上一个时代的节奏。
+数学界其实有过另一种奖。Erdős一辈子给问题标价，从二十五美元到一万美元，谁解出来，他就开一张支票。很多人把支票裱在墙上，一辈子没有兑现。他1996年去世，之后那种支票开得越来越少。
+而数学正在进入一个不同的时代。人工智能做不了实验，但它能推导；人工智能很难替物理学家造一台对撞机，但它可以替数学家试一万条路。今天一个猜想从提出到解决，可能是几个月，也可能是几天。一个四年颁一次的奖，面对这样的速度，像一座四年敲一次的钟，挂在一个以天计时的时代里。
+
+四
+所以孙宇晨奖的规则很简单。
+奖跟着题目走，不跟着人走。不等年会，不等提名，不等年龄。
+每道题，两栏署名。一栏记证明者，一栏记形式化者，把证明搬进机器的那个人。两栏可以是同一个人，也可以隔着半个地球互不相识。人可以，AI可以，人用AI也可以，哪一栏我都不关心物种。同一个名字可以一次又一次出现，出现在哪一栏都行。
+钱只有一个触发器：机器把证明从第一行核到最后一行，一步不差。通过之后，两栏中的名单就是这道题的奖金所有者。这个标准不是我发明的。Scholze把自己最重要的定理挂出来，请人搬进机器；费马大定理，此刻正被人一行一行往里搬。
+机器核过之前，人类的证明也不白做。数学界接受了，名字先挂上，钱一分不动，状态栏写着：已证明，待形式化。
+解题那一栏的钱，只付给上架之后才被解决的题。上架时已经解决的，证明者的名字照记，钱只付给把它搬进机器的人。这个奖记录它设立之后发生的事，不给数学史补发奖金。
+分工是干净的：名字归数学界，钱归机器，出资人两边都不沾。人的判断只剩一件事，确认写进机器的那道题，就是那道题。
+还剩最后一件我说了算的事：题单。哪道题上架，开什么价，由我签字。Erdős的支票，价码也是他自己写的，这里不装例外。但货架一旦挂出，就锁死：题只加不减，钱只兑不退，包括我在内，谁也改不动。写错的题，照付，然后重挂。
+我的品味，全部花在这一件事上。定价之外，验证、发钱、挂名，我一票都没有。
+结果说了算。
+
+五
+这套规则里，我最喜欢的是一个"等"字。
+一道题被解决、被数学界接受之后，钱不马上动。证明者的名字先挂上，形式化那一栏空着，状态栏写着：已证明，待形式化。谁把这份证明搬进机器，机器核过，空栏落上名字，钱的归属之旅也在那一刻启动。
+在别的奖里，等是迟滞，是流程，是必要之恶。在这里，等本身是一份清单。
+Erdős的支票，很多人裱在墙上，一辈子没有兑现。裱起来的钱朝后看，是纪念；挂在链上的钱朝前看，是召集。空在那里的一栏，等于对全世界说：这里有一份活，有价。
+于是这份题单同时长出另一个东西：一张公开的地图，标着人类已经认下、机器还没有认下的一切。这张图今天并不存在。它只有碎片，散在几处，从来没有统一过，更从来没有带过价。
+形式化的人从来不缺热情，缺的是一张带价码的施工图。谁去填那个空，谁拿钱。从今往后，把长证明搬进机器，热情还是他们的，账单归我。
+```
+
 ### 2026-03-08 · 1279 likes · 492862 views · https://x.com/justinsuntron/status/2030702248725201207
 
 ```text
@@ -490,6 +618,12 @@ AI 时代，机会在哪里，你该如何上车！
 三十年后，如果有年青人拿着更好的答案来找我们，希望您和我都还在，都还愿意听。
 
 孙宇晨
+```
+
+### 2026-10-07 · 1112 likes · 419612 views · https://x.com/sunyuchentron/status/2107795728190087641
+
+```text
+接受挑战，@cz_binance！ 我给自己一年的时间塑形并重现这张照片。没有AI，没有Photoshop，只有刻苦锻炼。请所有人都监督我吧！ 💪
 ```
 
 ### 2026-08-20 · 1106 likes · 898560 views · https://x.com/justinsuntron/status/2090535890749915282
@@ -740,6 +874,12 @@ Up only
 我不劝任何人这么做，这是我的判断，风险我自己承担。但我不打算改。
 ```
 
+### 2026-07-29 · 806 likes · 500782 views · https://x.com/justinsuntron/status/2082514963495858646
+
+```text
+36岁去其他公司也不会被录取了，只能在自己公司背水一战了，正是闯的年纪！
+```
+
 ### 2026-09-16 · 797 likes · 607308 views · https://x.com/sunyuchentron/status/2100165241741209639
 
 ```text
@@ -763,6 +903,14 @@ Thank you to everyone who came out!
 
 ```text
 孙宇晨博物馆（筹备）收藏的珍贵史料
+```
+
+### 2026-09-01 · 729 likes · 529573 views · https://x.com/sunyuchentron/status/2094695034054455356
+
+```text
+彭博和福布斯算我的身家时，会给加密资产打两折、三折。我理解他们的逻辑：集中、波动大、按他们的标准算不上"确定"。这是他们的方法论，与我无关。
+
+但换个角度看，被打掉的那一部分，就是我全部的判断所在。他们折掉的是不确定性，我押的也是同一份不确定性，只是他们看到风险，我看到的是机会。技术与机会站在哪一边，几年后再看。
 ```
 
 ### 2026-08-28 · 702 likes · 969189 views · https://x.com/justinsuntron/status/2093222851591770330
@@ -853,6 +1001,12 @@ Today, that early focus on real-world utility continues to shape TRON.
 Hong Kong Fireworks, Speed Run 🎆
 ```
 
+### 2026-09-08 · 495 likes · 166544 views · https://x.com/justinsuntron/status/2097238129921130553
+
+```text
+波场TRX ETF将在2026年9月9日在美国芝加哥交易所上市，这是波场生态即TRON在美国纳斯达克上市后二次上市，ETF代码为TRXS，波场生态形成以上市公司与ETF的双轮驱动！$TRX $TRON $TRXS
+```
+
 ### 2026-10-08 · 482 likes · 164268 views · https://x.com/justinsuntron/status/2108152600294289867
 
 ```text
@@ -909,6 +1063,14 @@ Theirs is being inspected by a federal court.
 
 ```text
 确实都是07的，而且我真的一年级的时候去修了数学分析，几周后扛不下来退了 😂
+```
+
+### 2026-07-24 · 441 likes · 264364 views · https://x.com/justinsuntron/status/2080521254759727516
+
+```text
+Congratulations to two of my fellow Peking University Class of 2007 alumni on winning the Fields Medal.
+
+A proud moment for PKU and the Class of 2007. 🎉
 ```
 
 ### 2026-10-12 · 435 likes · 117883 views · https://x.com/justinsuntron/status/2109766061679948206
@@ -989,6 +1151,12 @@ TRON in HK! 🇭🇰
 Had a blast at @TOKEN2049! Always a pleasure visiting Singapore and connecting with so many great minds in the industry.
 
 Thank you to everyone who made this week special. Looking forward to continuing our work to strengthen TRON’s infrastructure for institutional adoption, tokenized assets, and agentic AI.
+```
+
+### 2026-10-20 · 366 likes · 55475 views · https://x.com/sunyuchentron/status/2112391574823067983
+
+```text
+体验大于结论，也大于意义
 ```
 
 ### 2026-10-17 · 363 likes · 154921 views · https://x.com/justinsuntron/status/2111482167398482189
@@ -1160,6 +1328,17 @@ Eight years of building for global impact.
 Thank you to everyone who has been part of TRON’s journey. We’re just getting started.
 ```
 
+### 2026-09-16 · 291 likes · 154740 views · https://x.com/justinsuntron/status/2100218494868758722
+
+```text
+Quod probatur, solvitur.
+
+What is proved, is solved.
+
+The @JustinSunPrize begins.
+https://www.theblock.co/news/sponsored/2026-09-16-justin-sun-establishes-the-justin-sun-prize-my-wealth-came-from-mathematics-and-will-return-to-mathematics-415271
+```
+
 ### 2026-03-26 · 287 likes · 111903 views · https://x.com/justinsuntron/status/2037004759673298947
 
 ```text
@@ -1215,6 +1394,12 @@ $30T on Tron
 
 ```text
 按照目前AI和量子计算的发展速度，量子破密临界点可能在两年内到来
+```
+
+### 2026-08-23 · 268 likes · 178873 views · https://x.com/justinsuntron/status/2091496288265359372
+
+```text
+我们四亿用户啦 👏👏👏
 ```
 
 ### 2026-10-15 · 267 likes · 146158 views · https://x.com/justinsuntron/status/2110522025026654358
@@ -1303,6 +1488,12 @@ $TRX 唯一上涨主流代币
 
 ```text
 36岁去其他公司也不会被录取了，只能在自己公司背水一战了，正是闯的年纪！
+```
+
+### 2026-09-16 · 238 likes · 230496 views · https://x.com/justinsuntron/status/2100186862421946443
+
+```text
+https://x.com/i/article/2100123987930173440
 ```
 
 ### 2026-10-13 · 237 likes · 146646 views · https://x.com/justinsuntron/status/2109898177482723721
@@ -1469,92 +1660,6 @@ USDT on TRON is on @WalletConnect
 Wen 400M?
 ```
 
-### 2026-07-29 · 205 likes · 123460 views · https://x.com/justinsuntron/status/2082412770780454948
-
-```text
-TRX is now live on @Backpack 🎒
-```
-
-### 2026-10-15 · 205 likes · 156199 views · https://x.com/justinsuntron/status/2110669788251054505
-
-```text
-Good mathematical work deserves recognition. @JustinSunPrize aims to make that happen sooner, including for people working with AI.
-```
-
-### 2026-08-30 · 204 likes · 401155 views · https://x.com/justinsuntron/status/2093944997611720747
-
-```text
-TRON in Brazil. 🇧🇷
-```
-
-### 2026-10-16 · 204 likes · 156141 views · https://x.com/justinsuntron/status/2111026866639511636
-
-```text
-Mathematics made crypto possible. @JustinSunPrize is one way to give back.
-```
-
-### 2026-08-15 · 203 likes · 136503 views · https://x.com/justinsuntron/status/2088682825432363220
-
-```text
-Happy to see Rollbit on Tron @trondao
-```
-
-### 2026-08-14 · 202 likes · 143519 views · https://x.com/justinsuntron/status/2088201158523515175
-
-```text
-HTX is No.8 @HuobiGlobal @HTX_Global
-```
-
-### 2026-08-20 · 202 likes · 120400 views · https://x.com/justinsuntron/status/2090320424814911580
-
-```text
-$29T+ transferred on TRON.
-```
-
-### 2026-07-29 · 201 likes · 108107 views · https://x.com/justinsuntron/status/2082453306019135815
-
-```text
-Pleased to see TRX spot and perpetual markets launch on Backpack as we continue expanding the global TRON ecosystem!
-```
-
-### 2026-08-18 · 201 likes · 110675 views · https://x.com/justinsuntron/status/2089550350735065375
-
-```text
-Moving Trillions. Empowering Billions.🔻
-```
-
-### 2026-10-12 · 201 likes · 123004 views · https://x.com/justinsuntron/status/2109595758827913367
-
-```text
-一切才刚刚开始！
-```
-
-### 2026-09-03 · 195 likes · 271657 views · https://x.com/justinsuntron/status/2095348491199619457
-
-```text
-Building for the future starts with preparing early. 
-
-TRON will be ready for what's to come!
-```
-
-### 2026-08-11 · 193 likes · 145164 views · https://x.com/justinsuntron/status/2087066232139010455
-
-```text
-91B.
-```
-
-### 2026-09-01 · 193 likes · 323859 views · https://x.com/sunyuchentron/status/2094585217118060887
-
-```text
-下一个小目标：1000亿！
-```
-
-### 2026-09-17 · 192 likes · 241029 views · https://x.com/sunyuchentron/status/2100551504704970759
-
-```text
-孙宇晨奖，都来参加吧！
-```
-
 ### 2025-03-27 · 8116 likes · 8365939 views · https://x.com/justinsuntron/status/1905324113851547790
 
 ```text
@@ -1591,14 +1696,14 @@ $TRX 销毁全球第一，如今波场TRON生态 just:native ethereum:0xc6699281
 
 | | 曾颖（颖学） | 孙宇晨（对照组） |
 | --- | --- | --- |
-| 语料量 | 883 条 | 673 条（同一时间窗） |
+| 语料量 | 892 条 | 784 条（同一时间窗） |
 | 句子 | 散文白描 | 公告短句 |
 | 说服方式 | 细节反差 | 数据背书 |
 | 提到对方 | 第三人称调侃(`孙割`/`孙哥`/`孙老师`) | 自称「我」 |
-| 正文长度 | 独立帖中位数 81 字,回复中位数 29 字 | 中位数 21 字 |
-| 语种 | 中文 90% | 中文 53% |
-| emoji | 22% 的帖子有,😂 收尾 | 12%,🔻/😎 |
-| hashtag | 3%,一次 1–5 个 | 4%,单条最多 1 个 |
+| 正文长度 | 独立帖中位数 80 字,回复中位数 29 字 | 中位数 21 字 |
+| 语种 | 中文 91% | 中文 54% |
+| emoji | 23% 的帖子有,😂 收尾 | 12%,🔻/😎 |
+| hashtag | 3%,一次 1–5 个 | 4%,单条最多 4 个 |
 | 句末无标点 | 62% | 64% |
 | **感叹号收尾** | **3%** | **17%** |
 
