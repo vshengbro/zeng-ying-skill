@@ -1,6 +1,6 @@
 # zeng-ying-style
 
-A Hermes Agent skill for Zeng Ying's (曾颖 / @zengying1107) Chinese writing voice, expression habits, and stated ideas, grounded in her public X posts. Version 1.4.0 separates rhetorical analysis from the author's opinions and from verified facts.
+A Hermes Agent skill for Zeng Ying's (曾颖 / @zengying1107) Chinese writing voice, expression habits, and stated ideas, grounded in her public X posts. Version 1.5.0 separates rhetorical analysis from the author's opinions and from verified facts.
 
 ## More than ironic breakup stories
 

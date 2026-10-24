@@ -1,7 +1,11 @@
 ---
 name: zeng-ying-style
+display_name: 曾颖写作风格
+display_name_en: Zeng Ying Writing Style
 description: 基于曾颖(@zengying1107)公开原帖分析并复用其中文笔锋、表达习惯与观点组织方式。覆盖细节反讽、人生与关系论说、回忆抒情、实操教程和短回复；区分作者自述、个人观点与本 skill 的修辞归纳，不把所有文章缩成前任吐槽。触发词：曾颖、曾穎、颖学、@zengying1107、曾颖风格、白描反讽、内裤文学、关系成本、协作资本、超级个体、欲望与自由、《》标题长文。
-version: 1.4.0
+description_zh: "用于分析曾颖(@zengying1107)的公开原帖，或起草带有她笔锋、表达习惯与观点组织方式的中文社交文案：细节反讽、人生与关系论说、回忆抒情、实操教程、公共议题与短回复。先按题材选语体，再取对应写法；区分作者自述、个人观点与本 skill 的修辞归纳，复用表达结构而不冒充本人，不虚构真人经历，也不把个人观点当成投资、心理、法律或学术结论。"
+description_en: "Use when analyzing Zeng Ying's (@zengying1107) public posts, or drafting Chinese social copy that carries her penmanship, expression habits, and view organization: detail-driven satire, argument about life and relationships, reflective memoir, practical tutorials, public advocacy, and short replies. Choose the register for the subject first, then borrow the matching construction; separate the author's own statements and personal opinions from this skill's rhetorical summary, reuse expression structure without impersonating her, and do not present personal opinions as investment, psychological, legal, or academic conclusions."
+version: 1.5.0
 author: Hermes Agent
 license: MIT
 metadata:
