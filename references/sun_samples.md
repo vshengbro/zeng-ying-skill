@@ -1,8 +1,8 @@
 # 孙宇晨 (@justinsuntron / @sunyuchentron) — 对照组语料
 
-The Zeng Ying skill needs a control group: the same platform, the same months, a completely different voice. This is that control group.
+This control group compares selected registers on the same platform and within the same date window; it does not define either author's entire voice.
 
-实测采集 **784 条**孙宇晨原帖(`@justinsuntron` 429 条 + `@sunyuchentron` 355 条,2026-02-12 → 2026-10-22),全文 + 互动数。窗口与曾颖语料完全重合。
+实测采集 **798 条**孙宇晨原帖(`@justinsuntron` 433 条 + `@sunyuchentron` 365 条,2026-02-12 → 2026-10-22),全文 + 互动数。窗口与曾颖语料完全重合。
 
 由 `scripts/build_sun_samples.py` 生成;全量语料见 `sun-yuchen-skill` 仓库。
 
@@ -11,26 +11,26 @@ The Zeng Ying skill needs a control group: the same platform, the same months, a
 | 指标 | 实测值 |
 | --- | --- |
 | 正文长度 | 中位数 21 字,平均 71 字 |
-| 语种 | 中文 426 条(54%),英文 358 条(46%) |
+| 语种 | 中文 439 条(55%),英文 359 条(45%) |
 | 句末无标点直接断 | 64%(另有 9% 以 emoji 收尾) |
 | 句号收尾 | 18% |
 | **感叹号收尾** | **17%** |
 | 含 emoji | 12%,单条最多 4 个 |
 | 含 hashtag | 4%,单条最多 4 个 |
 
-**三段式,和曾颖的白描散文完全相反:**
+**部分常见语体（不是两位作者所有文章的固定模板）:**
 
 1. **英文公关稿体**——结论先行、数据背书、结尾带一个 🔻 或 😎。
 2. **中文口号体**——短句 + 感叹号 + 交易/销毁/涨价,没有比喻。
 3. **偶尔的自我嘲弄体**——这也是他会「玩梗」的原因,他会自嘲,但自嘲是为了把话题接回来。
 
-**和曾颖的差别,一眼能分:** 曾颖用细节反差让人笑,孙宇晨用数据让人点头;曾颖的句子是散文,孙宇晨的句子是公告;曾颖把「孙哥」放在第三人称里调侃,孙宇晨谈自己时是「我」+ 数据。
+**对照用途:** 这些样本可帮助区分细节反讽、公告和口号的写法，但不能据此断言曾颖只写白描、孙宇晨只写公告。曾颖也有直接判断、论证、抒情和教程，详见 `voice-and-theory.md`。
 
 ---
 
-## 样本（同一时间窗内按点赞排序，取前 150 条）
+## 样本（窗口内按点赞取前 150 条，并保留历史引用）
 
-下面 150 条是这一窗口里点赞最高的原帖,全文照录;计数表覆盖窗口内全部 784 条。
+先列出窗口内点赞最高的 150 条，再保留 9 条未进入本轮前列的历史引用，本页共 159 条。统计分母仍为窗口内全部 798 条，不把额外保留的引用另加进分母。
 
 ### 2026-08-27 · 68342 likes · 45119607 views · https://x.com/justinsuntron/status/2092932777612390850
 
@@ -158,6 +158,61 @@ https://x.com/i/article/2092711089305948160
 大家都说，大压抑时代，高富帅已经过时了，孙学，黄毛，薄肌才是版本答案，作为孙学创始人，我将系统性吸收黄毛与薄肌理论，朝闻道夕死可矣！
 ```
 
+### 2026-03-06 · 7432 likes · 6216801 views · https://x.com/justinsuntron/status/2029973589504708705
+
+```text
+一个秘密：
+
+这个时代不用闲鱼买东西，你几乎一定在溢价
+
+拒绝京东
+拒绝天猫
+拒绝线下购物
+
+买任何东西之前
+先让闲鱼识别一下价格
+
+你会看到一个
+震碎三观的市场价
+
+朋友送礼
+就别用闲鱼识别了
+会失去友谊
+
+慢慢你会意识到：
+
+几乎没有什么东西
+是闲鱼买不到的
+
+甚至包括很多
+你原来以为不能买、不能卖的东西
+
+宁愿买更贵的二手
+也不买更便宜的一手
+
+因为：
+
+一手价格来自权力
+二手价格来自市场
+
+没有一枚金币比另一枚更高尚
+但二手价格永远比一手更高尚
+
+因为它来自于
+自由
+
+不要抄一底
+永远抄二底
+
+刘邦、李世民
+都是抄二底得天下
+
+孙学就是赢学
+
+买东西
+也要赢
+```
+
 ### 2026-10-07 · 5699 likes · 4386583 views · https://x.com/justinsuntron/status/2107793162358210991
 
 ```text
@@ -194,6 +249,30 @@ Turning value into a language machines can understand. That’s what TRON does.�
 我不属于任何一边。这件事到我为止。
 
 这是一桩普通的民事财产纠纷，已经进入司法程序。我尊重法院，尊重程序，也尊重对方的一切权利。结果如何，我都接受。
+```
+
+### 2026-08-05 · 4368 likes · 1256780 views · https://x.com/justinsuntron/status/2085077420990988459
+
+```text
+一代版本一代神
+
+看到福布斯榜单上位次互换，我心里没有波澜，只有警醒。
+
+王健林当年也曾是版本之神，正如我曾是不被相信的年轻人。
+
+版本更迭最残酷之处，是身处巅峰的人总是最后察觉。
+
+我凭什么是例外？
+
+所以今天若有个年轻人对我讲一些我听不懂、甚至想嘲笑的东西，我很难再有王思聪这种自信。
+
+我会给他端一杯茶，听他讲讲他的世界。
+
+因为傲慢是永远是最先被清算的资产。
+
+我们永远无法预知未来，但是相信年轻人，永远是没错的。
+
+《孙学》+1
 ```
 
 ### 2026-09-03 · 4169 likes · 962711 views · https://x.com/sunyuchentron/status/2095485722954518987
@@ -706,6 +785,12 @@ USD1的市值据报道为40亿美元，但那是用户的钱。
 基于我所审阅的公开信息，我对此没有信心。
 
 我敦促投资者自行做好尽职调查，并保持极度谨慎。
+```
+
+### 2026-07-02 · 1103 likes · 378294 views · https://x.com/justinsuntron/status/2072697610402664564
+
+```text
+孙学第二部，2026今年下半年出版
 ```
 
 ### 2026-08-20 · 995 likes · 768888 views · https://x.com/justinsuntron/status/2090530708758606217
@@ -1524,6 +1609,12 @@ Good conversation with @MikeIppolito_ at DAS Asia.
 Keep buying
 ```
 
+### 2026-10-22 · 233 likes · 44356 views · https://x.com/sunyuchentron/status/2113154260854767752
+
+```text
+看清时代趋势，找到适合自己的路径
+```
+
 ### 2026-09-09 · 230 likes · 160645 views · https://x.com/justinsuntron/status/2097565881387950470
 
 ```text
@@ -1634,10 +1725,28 @@ $30 trillion in total transfer volume on TRON. 🔻
 A major milestone made possible by the builders, users, and community who keep the network moving.
 ```
 
+### 2025-03-27 · 8116 likes · 8365939 views · https://x.com/justinsuntron/status/1905324113851547790
+
+```text
+From a visionary to a global force — honored to be featured on Forbes as Crypto’s Billionaire Barker. TRON’s journey continues, powering a global payment system with 300 million users and counting. Decentralization will prevail.
+```
+
+### 2026-06-28 · 205 likes · 105584 views · https://x.com/justinsuntron/status/2071212881777955033
+
+```text
+Wen 400M?
+```
+
 ### 2026-09-01 · 206 likes · 317383 views · https://x.com/sunyuchentron/status/2094694071663227237
 
 ```text
 去中心化金融的本质，是一个金融系统不依赖任何人、任何机构，只依赖数学和密码学自主运转。比特币从第一天起就是这样设计的。我们今天做的一切，公开的账本、可验证的储备、随时的兑付，都是朝这个方向走的台阶。这是我的终极目标，也是我的初心。
+```
+
+### 2026-09-25 · 138 likes · 156507 views · https://x.com/justinsuntron/status/2103381476045922470
+
+```text
+永远听劝！
 ```
 
 ### 2026-09-29 · 206 likes · 149439 views · https://x.com/justinsuntron/status/2105040361538429397
@@ -1652,24 +1761,6 @@ A major step forward as TRON continues building for the future and expanding its
 
 ```text
 USDT on TRON is on @WalletConnect
-```
-
-### 2026-06-28 · 205 likes · 105584 views · https://x.com/justinsuntron/status/2071212881777955033
-
-```text
-Wen 400M?
-```
-
-### 2025-03-27 · 8116 likes · 8365939 views · https://x.com/justinsuntron/status/1905324113851547790
-
-```text
-From a visionary to a global force — honored to be featured on Forbes as Crypto’s Billionaire Barker. TRON’s journey continues, powering a global payment system with 300 million users and counting. Decentralization will prevail.
-```
-
-### 2026-09-25 · 138 likes · 156507 views · https://x.com/justinsuntron/status/2103381476045922470
-
-```text
-永远听劝！
 ```
 
 ### 2026-10-07 · 19 likes · 24306 views · https://x.com/justinsuntron/status/2107702108904653126
@@ -1692,19 +1783,19 @@ $TRX 销毁全球第一，如今波场TRON生态 just:native ethereum:0xc6699281
 
 ---
 
-## 与曾颖语体的对照（改写时不要混用）
+## 与曾颖基线语体的对照（统计不是单篇配额）
 
 | | 曾颖（颖学） | 孙宇晨（对照组） |
 | --- | --- | --- |
-| 语料量 | 892 条 | 784 条（同一时间窗） |
+| 语料量 | 892 条 | 798 条（同一时间窗） |
 | 句子 | 散文白描 | 公告短句 |
 | 说服方式 | 细节反差 | 数据背书 |
 | 提到对方 | 第三人称调侃(`孙割`/`孙哥`/`孙老师`) | 自称「我」 |
 | 正文长度 | 独立帖中位数 80 字,回复中位数 29 字 | 中位数 21 字 |
-| 语种 | 中文 91% | 中文 54% |
+| 语种 | 中文 91% | 中文 55% |
 | emoji | 23% 的帖子有,😂 收尾 | 12%,🔻/😎 |
 | hashtag | 3%,一次 1–5 个 | 4%,单条最多 4 个 |
 | 句末无标点 | 62% | 64% |
 | **感叹号收尾** | **3%** | **17%** |
 
-**所以:写曾颖时不要用孙宇晨的句法。** 「$TRX 唯一上涨主流代币」那种一句话下判断的写法,在颖学里是无效的——曾颖的语气必须落在一个具体的细节上,然后什么都不解释。
+**先选语体，再看对照。** 公告口号不能自动替代场景反讽；但曾颖的论说体本来就会解释和下判断，不应强制所有文章只给细节、不作评论。

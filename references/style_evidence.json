@@ -1,0 +1,737 @@
+{
+  "schema_version": 1,
+  "account": "zengying1107",
+  "verified_on": "2026-10-24",
+  "scope": "A purposive qualitative supplement, not a complete timeline or a new denominator for historical statistics. Author opinions are not verified medical, legal, financial or academic facts.",
+  "method": "Discover public original posts via the signed-in X profile, replies and author-restricted search; fetch full text via the public FxTwitter mirror; validate author and exact excerpts. Creator-subscription posts are excluded.",
+  "baseline": {
+    "path": "references/tweets.jsonl",
+    "count": 892,
+    "from": "2026-02-12",
+    "through": "2026-10-22"
+  },
+  "discovery_pages": [
+    "https://x.com/zengying1107",
+    "https://x.com/zengying1107/with_replies",
+    "https://x.com/search?q=from%3Azengying1107%20%28%E8%87%AA%E7%94%B1%20OR%20%E6%83%85%E7%BB%AA%20OR%20%E5%A5%91%E7%BA%A6%20OR%20%E6%88%90%E6%9C%AC%29&src=typed_query&f=live"
+  ],
+  "public_fetch_ids": ["2027672103340646441", "2030821835550716261", "2032874312634601817", "2033167039410684339", "2039321056444592139", "2055703544477659427", "2055715869809094971", "2055861316137415134", "2057632784852922816", "2076287664463155234", "2085549863165624773", "2097989425519280346", "2104202434319122487", "2104798019334115705", "2106266715264840038", "2106584510720843993", "2106926126715277326", "2108351630865469949", "2108573325555585292", "2109161039392841788", "2109209875666649197", "2110346951736832036", "2077624930007765225", "2113796514304975124", "2113763280338723185", "2113635499328069882", "2113594028101099564", "2113580746673987772", "2113580770136924273", "2113577729698517026", "2113569161028964427", "2112932656128442392", "2112926800468935155", "2112868113557729714", "2112841570768806371", "2111846406541775015", "2111251010002071697", "2110975687167295935", "2110703586363822481", "2110267626748629395", "2110206137706668487", "2109948334794526733", "2109534006949916767", "2113827383702937804", "2113798420448280963", "2113677437708210336", "2113638748902903913", "2113639691740414420", "2113618960881250556", "2113173707040637212", "2113079273024364727", "2112913794439741836", "2112902430258282671", "2112898179679285484", "2112895463766786062", "2112892866939031856", "2112890555407733147", "2112557786957754655", "2112107519648895416", "2112103719450099976", "2112063329246289957", "2099767348437922068", "2099367336977596816", "2100821446255894684", "2100431491797078271"],
+  "summary": {
+    "public_posts_fetched": 65,
+    "analysis_posts": 36,
+    "analysis_posts_not_in_baseline": 14,
+    "creator_subscription_posts_excluded": 5
+  },
+  "excluded_access_limited": [
+    {
+      "url": "https://x.com/zengying1107/status/2113831044562710633",
+      "reason": "The X page requires a creator subscription; only its public preview was visible. Not used as full-text evidence."
+    },
+    {
+      "url": "https://x.com/zengying1107/status/2113791335518077272",
+      "reason": "The X page requires a creator subscription; only its public preview was visible. Not used as full-text evidence."
+    },
+    {
+      "url": "https://x.com/zengying1107/status/2113634893121155538",
+      "reason": "The X page requires a creator subscription; only its public preview was visible. Not used as full-text evidence."
+    },
+    {
+      "url": "https://x.com/zengying1107/status/2112103945132982698",
+      "reason": "The X page requires a creator subscription; only its public preview was visible. Not used as full-text evidence."
+    },
+    {
+      "url": "https://x.com/zengying1107/status/2110560070115483762",
+      "reason": "The X page requires a creator subscription; only its public preview was visible. Not used as full-text evidence."
+    }
+  ],
+  "posts": [
+    {
+      "key": "autonomy",
+      "id": "2030821835550716261",
+      "author": "zengying1107",
+      "title": "《35岁的不婚宣言》",
+      "url": "https://x.com/zengying1107/status/2030821835550716261",
+      "published_at_utc": "2026-03-09T01:43:51+00:00",
+      "date_utc": "2026-03-09",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2030821835550716261",
+      "in_baseline": true,
+      "full_text_chars": 1127,
+      "full_text_sha256": "e493f041520009be40abe881c11b3facb60fead0a88bedcc65826d334e95dcca",
+      "excerpts": [
+        "我不是谁的老婆，我只是我自己"
+      ],
+      "analysis": "用兴趣、时间和生活选择建立自我身份，而不是只用伴侣身份定义自己。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "self_reflection",
+      "id": "2027672103340646441",
+      "author": "zengying1107",
+      "title": "《本我和觉醒》",
+      "url": "https://x.com/zengying1107/status/2027672103340646441",
+      "published_at_utc": "2026-02-28T09:07:56+00:00",
+      "date_utc": "2026-02-28",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2027672103340646441",
+      "in_baseline": true,
+      "full_text_chars": 813,
+      "full_text_sha256": "16cd1317fd8c0fdee7d195a6d8f39c1ed1e5db28e5fc5c987cfdc6aaffb23566",
+      "excerpts": [
+        "我并不否认，早期的我也有热衷炒作的一面。"
+      ],
+      "analysis": "先陈述受伤经历，再承认自身参与，最后收回注意力；不是始终站在无辜者位置。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "big_water",
+      "id": "2109161039392841788",
+      "author": "zengying1107",
+      "title": "孙哥参加别人的访谈，大谈薄肌大水理论。",
+      "url": "https://x.com/zengying1107/status/2109161039392841788",
+      "published_at_utc": "2026-10-11T05:55:52+00:00",
+      "date_utc": "2026-10-11",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2109161039392841788",
+      "in_baseline": true,
+      "full_text_chars": 539,
+      "full_text_sha256": "89ca334080f81532f05036fa44a4d61a9df585323ea1e0e4aa731bc307a91adb",
+      "excerpts": [
+        "放下大水，立地成壶。"
+      ],
+      "analysis": "把宏观成功话术换成廉价生活物件，以近音替换和口号仿写制造反差。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "underwear",
+      "id": "2039321056444592139",
+      "author": "zengying1107",
+      "title": "《和百亿大佬学习，如何让女朋友心甘情愿的洗内裤》",
+      "url": "https://x.com/zengying1107/status/2039321056444592139",
+      "published_at_utc": "2026-04-01T12:36:43+00:00",
+      "date_utc": "2026-04-01",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2039321056444592139",
+      "in_baseline": true,
+      "full_text_chars": 663,
+      "full_text_sha256": "f95121db04fe49f15ea739349b0aa79c48882f4cd3bc5526bb6e3771281b6aef",
+      "excerpts": [
+        "需要在30度左右流动的温水里，缓缓冲洗。"
+      ],
+      "analysis": "把生活琐事写成精密流程，用过度认真的计量制造反讽；不是实用护理说明。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "kfc",
+      "id": "2077624930007765225",
+      "author": "zengying1107",
+      "title": "我有个只打过一次照面的朋友，给孙哥投了无数的项目…",
+      "url": "https://x.com/zengying1107/status/2077624930007765225",
+      "published_at_utc": "2026-07-16T05:22:38+00:00",
+      "date_utc": "2026-07-16",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2077624930007765225",
+      "in_baseline": true,
+      "full_text_chars": 320,
+      "full_text_sha256": "e4636fead8b258026845a24be96cacf9b19b73ca0ca7b396f240cfa91fe60ea2",
+      "excerpts": [
+        "用优惠券",
+        "不是单点"
+      ],
+      "analysis": "先抬高见面仪式，再把包袱压到优惠券、套餐等低价物件上。",
+      "title_is_excerpt": true
+    },
+    {
+      "key": "xu_ke",
+      "id": "2033167039410684339",
+      "author": "zengying1107",
+      "title": "一直怀念曾经在北京快乐的日子，看到徐可@xuke…",
+      "url": "https://x.com/zengying1107/status/2033167039410684339",
+      "published_at_utc": "2026-03-15T13:02:51+00:00",
+      "date_utc": "2026-03-15",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2033167039410684339",
+      "in_baseline": true,
+      "full_text_chars": 615,
+      "full_text_sha256": "4de50e3a8f9594a942012a31e16a12410d5a6c8dd9177d5d46c626ff59622602",
+      "excerpts": [
+        "而徐可，只是单纯，忘记了。"
+      ],
+      "analysis": "用第三方的普通行为，戳破主人公对咖位的宏大解释。",
+      "title_is_excerpt": true
+    },
+    {
+      "key": "forbidden_love",
+      "id": "2108351630865469949",
+      "author": "zengying1107",
+      "title": "《禁忌之爱》",
+      "url": "https://x.com/zengying1107/status/2108351630865469949",
+      "published_at_utc": "2026-10-09T00:19:34+00:00",
+      "date_utc": "2026-10-09",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2108351630865469949",
+      "in_baseline": true,
+      "full_text_chars": 241,
+      "full_text_sha256": "3f2aa85cb17b14a5a1d499c4c6d53f677bbf088310ebd3c343dd67b7bbf0af0c",
+      "excerpts": [
+        "还带来了一张1.8万日元的罚单。"
+      ],
+      "analysis": "先搭建文艺爱情期待，再用停车罚单揭示现实；文艺腔在这里是笑料的铺垫。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "first_love",
+      "id": "2097989425519280346",
+      "author": "zengying1107",
+      "title": "《纯白色的初恋》",
+      "url": "https://x.com/zengying1107/status/2097989425519280346",
+      "published_at_utc": "2026-09-10T10:03:52+00:00",
+      "date_utc": "2026-09-10",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2097989425519280346",
+      "in_baseline": true,
+      "full_text_chars": 1341,
+      "full_text_sha256": "b27ba605c7ba3ee6a4a46437f0d0f0b927c878bfbdb19c9b3b6ec9e289c3a807",
+      "excerpts": [
+        "原来好看的并不是我，而是他心疼掉眼泪的我。"
+      ],
+      "analysis": "用裙子、雪、钱包等物件保存真情回忆，再转入限量商品介绍；抒情不必被改写成冷嘲。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "delivery",
+      "id": "2104202434319122487",
+      "author": "zengying1107",
+      "title": "《宇宙派送员》",
+      "url": "https://x.com/zengying1107/status/2104202434319122487",
+      "published_at_utc": "2026-09-27T13:32:09+00:00",
+      "date_utc": "2026-09-27",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2104202434319122487",
+      "in_baseline": true,
+      "full_text_chars": 727,
+      "full_text_sha256": "7583f0f869a55da58ad68f2f2f0b64661d878320d0eae0fc441fe5828d7598f6",
+      "excerpts": [
+        "用心，用情，要用在值得的人身上。"
+      ],
+      "analysis": "先写荒诞的送礼故事，最后转为理解、祝愿和对值得之人的期待。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "favors",
+      "id": "2110346951736832036",
+      "author": "zengying1107",
+      "title": "颖学之尽量别找朋友帮忙",
+      "url": "https://x.com/zengying1107/status/2110346951736832036",
+      "published_at_utc": "2026-10-14T12:28:16+00:00",
+      "date_utc": "2026-10-14",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2110346951736832036",
+      "in_baseline": true,
+      "full_text_chars": 1964,
+      "full_text_sha256": "0a960f16c6704b4e5b00bbd38e98e6f5121ebe4795c6908da94f05b2d6740a7d",
+      "excerpts": [
+        "显性的金钱成本",
+        "隐性的时间成本、情绪成本和人情债务"
+      ],
+      "analysis": "把免费人情重新算成沟通、责任、时间和长期义务，主张专业与友谊分工。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "lending",
+      "id": "2104798019334115705",
+      "author": "zengying1107",
+      "title": "《拒绝借钱的大智慧》",
+      "url": "https://x.com/zengying1107/status/2104798019334115705",
+      "published_at_utc": "2026-09-29T04:58:47+00:00",
+      "date_utc": "2026-09-29",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2104798019334115705",
+      "in_baseline": true,
+      "full_text_chars": 2048,
+      "full_text_sha256": "84bf8b19b8af8ce67dc7b554b1278acac1796422a3128947de508532642d9a63",
+      "excerpts": [
+        "那只是被善良包装过的贪念。"
+      ],
+      "analysis": "用借款经历回看自己的动机，区分赠与、投资与友情；自省比单向控诉重要。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "emotion_cost",
+      "id": "2076287664463155234",
+      "author": "zengying1107",
+      "title": "很多女孩子一直以为，自己感情失败，是因为长得不够…",
+      "url": "https://x.com/zengying1107/status/2076287664463155234",
+      "published_at_utc": "2026-07-12T12:48:49+00:00",
+      "date_utc": "2026-07-12",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2076287664463155234",
+      "in_baseline": true,
+      "full_text_chars": 1413,
+      "full_text_sha256": "265b2125c6b4b4e2df72defc1f47350d65e79226e94e8202374578d178d6887d",
+      "excerpts": [
+        "剩余价值 = 个人价值 − 情绪成本。"
+      ],
+      "analysis": "她借用价值和成本描述关系体验，原帖主动声明是功利视角，不是科学量表或马克思经济学定义。",
+      "title_is_excerpt": true
+    },
+    {
+      "key": "ski",
+      "id": "2106584510720843993",
+      "author": "zengying1107",
+      "title": "《少女滑雪日记》",
+      "url": "https://x.com/zengying1107/status/2106584510720843993",
+      "published_at_utc": "2026-10-04T03:17:40+00:00",
+      "date_utc": "2026-10-04",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2106584510720843993",
+      "in_baseline": true,
+      "full_text_chars": 462,
+      "full_text_sha256": "0cb0a958a4aee5de6206699ea9ed2e3ddbea484def91fd92c26ce0b95bf50dfe",
+      "excerpts": [
+        "怎么停下来，慢下来，怎么不弄伤自己。"
+      ],
+      "analysis": "从运动中的控制速度，迁移到人生中的止损、迂回和可退出性。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "impermanence",
+      "id": "2108573325555585292",
+      "author": "zengying1107",
+      "title": "《诸行无常》",
+      "url": "https://x.com/zengying1107/status/2108573325555585292",
+      "published_at_utc": "2026-10-09T15:00:30+00:00",
+      "date_utc": "2026-10-09",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2108573325555585292",
+      "in_baseline": true,
+      "full_text_chars": 1376,
+      "full_text_sha256": "278fa400b58cdac609963b394e0979ccb844ba89d4f46549fd28ade888891993",
+      "excerpts": [
+        "并不是将仇人重新定义为恩人",
+        "我仍然做不到原谅那些伤害过我的人。"
+      ],
+      "analysis": "以因缘与反事实假设重看经历，承认伤害，同时停止向过去索取答案；不是强迫原谅。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "desires",
+      "id": "2109209875666649197",
+      "author": "zengying1107",
+      "title": "《欲望是人生陷入痛苦的诅咒》",
+      "url": "https://x.com/zengying1107/status/2109209875666649197",
+      "published_at_utc": "2026-10-11T09:09:56+00:00",
+      "date_utc": "2026-10-11",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2109209875666649197",
+      "in_baseline": true,
+      "full_text_chars": 472,
+      "full_text_sha256": "c9bc9bfb44ff15db72e28e8f249f4f06993e5550f6ae7a900e8cabd8b3472144",
+      "excerpts": [
+        "人生中，有一点点甜就够了。"
+      ],
+      "analysis": "通过幸福短暂和欲望反复讨论知足；原帖混用宗教、哲学与个人经验，不能当作她独创的学术理论。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "enough",
+      "id": "2085549863165624773",
+      "author": "zengying1107",
+      "title": "《中国社会已经进入物质过剩时代》",
+      "url": "https://x.com/zengying1107/status/2085549863165624773",
+      "published_at_utc": "2026-08-07T02:13:29+00:00",
+      "date_utc": "2026-08-07",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2085549863165624773",
+      "in_baseline": true,
+      "full_text_chars": 929,
+      "full_text_sha256": "902732b8cdf84949abf8bd551bfe67f40ccdc263a81d1e97bfa575d507e15731",
+      "excerpts": [
+        "物质可以服务生活，但不能定义人的价值。"
+      ],
+      "analysis": "区分想要与需要，把自由重新解释为有能力停止消费；社会判断属于作者观点。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "ai_companion",
+      "id": "2106926126715277326",
+      "author": "zengying1107",
+      "title": "普通家庭的孩子，在 AI 推倒教育资源壁垒的时代…",
+      "url": "https://x.com/zengying1107/status/2106926126715277326",
+      "published_at_utc": "2026-10-05T01:55:08+00:00",
+      "date_utc": "2026-10-05",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2106926126715277326",
+      "in_baseline": true,
+      "full_text_chars": 775,
+      "full_text_sha256": "de472466f4e8c1ae4ddde0986f4b5291b79ead3f72907337c3bb8bff22bf5f95",
+      "excerpts": [
+        "不是让 AI 替你决定人生"
+      ],
+      "analysis": "把AI写成低门槛的辅助观察视角与陪伴对象，接回普通人的知识和资源处境。",
+      "title_is_excerpt": true
+    },
+    {
+      "key": "superindividual",
+      "id": "2110975687167295935",
+      "author": "zengying1107",
+      "title": "成为超级个体",
+      "url": "https://x.com/zengying1107/status/2110975687167295935",
+      "published_at_utc": "2026-10-16T06:06:38+00:00",
+      "date_utc": "2026-10-16",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2110975687167295935",
+      "in_baseline": false,
+      "full_text_chars": 491,
+      "full_text_sha256": "1702b34fe80ac2234cc369eed396d52ba356e579ec084e58040ff77b64873c82",
+      "excerpts": [
+        "财富自由解决生存的依赖，AI解决能力的局限，而精神独立解决情感的束缚。"
+      ],
+      "analysis": "在个体生活场景中，主张用经济能力、AI能力与精神独立降低被动依赖；不是承诺投资收益。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "mental_strength",
+      "id": "2113569161028964427",
+      "author": "zengying1107",
+      "title": "我现在才真正理解，什么叫作内心的强大。",
+      "url": "https://x.com/zengying1107/status/2113569161028964427",
+      "published_at_utc": "2026-10-23T09:52:10+00:00",
+      "date_utc": "2026-10-23",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2113569161028964427",
+      "in_baseline": false,
+      "full_text_chars": 493,
+      "full_text_sha256": "bdb9a3923089d2c5a9d500a259b0a9bef74b537722a6d684fa3dc5976bec1d06",
+      "excerpts": [
+        "不是没有情绪，而是理智先行，结果导向。"
+      ],
+      "analysis": "承认委屈与破碎，但把行为决定权交回理智；是一篇自我规训宣言，不是心理治疗建议。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "privacy",
+      "id": "2113796514304975124",
+      "author": "zengying1107",
+      "title": "我是一个极其重视个人隐私与契约精神的人。",
+      "url": "https://x.com/zengying1107/status/2113796514304975124",
+      "published_at_utc": "2026-10-24T00:55:36+00:00",
+      "date_utc": "2026-10-24",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2113796514304975124",
+      "in_baseline": false,
+      "full_text_chars": 459,
+      "full_text_sha256": "fcb435ec5699ca04cc23f3901779802bd9d93f9dd6c32d841f426af9790c21a8",
+      "excerpts": [
+        "感情是流动的，但信任所赋予的责任，不应随着关系的终结而失效。"
+      ],
+      "analysis": "用关系结束后仍有保密责任界定体面；分析的是其价值主张，不核定私人争议。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "pets_outbound",
+      "id": "2113580746673987772",
+      "author": "zengying1107",
+      "title": "从东京怎么带狗回国？",
+      "url": "https://x.com/zengying1107/status/2113580746673987772",
+      "published_at_utc": "2026-10-23T10:38:13+00:00",
+      "date_utc": "2026-10-23",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2113580746673987772",
+      "in_baseline": false,
+      "full_text_chars": 1986,
+      "full_text_sha256": "5f830edee5df084ba17b54e94ad2d46d09a4d1ff3c071859a31b4dce41323d95",
+      "excerpts": [
+        "先交代一下背景",
+        "不能一概而论。"
+      ],
+      "analysis": "实操文先交代个人条件，再编号展开步骤，随时区分适用条件与限制。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "pets_return",
+      "id": "2113580770136924273",
+      "author": "zengying1107",
+      "title": "我自己的做法是先联系航空公司了解余位，购…",
+      "url": "https://x.com/zengying1107/status/2113580770136924273",
+      "published_at_utc": "2026-10-23T10:38:18+00:00",
+      "date_utc": "2026-10-23",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2113580770136924273",
+      "in_baseline": false,
+      "full_text_chars": 1231,
+      "full_text_sha256": "0d2bc8355e0567e1ae792b4c48656c856ccca8d4e5ccbecaf426c966a004cbb5",
+      "excerpts": [
+        "中国入境与日本再入境是两套不同的检疫规则，千万不能混为一谈。"
+      ],
+      "analysis": "续帖补完剩余流程，并声明价格、政策与航司条件会变化；不能把正文截断或照搬为现行规则。",
+      "title_is_excerpt": true
+    },
+    {
+      "key": "conscience",
+      "id": "2055703544477659427",
+      "author": "zengying1107",
+      "title": "《“乡愿”，是伪善者的庇护所——论孔子的批判精神…",
+      "url": "https://x.com/zengying1107/status/2055703544477659427",
+      "published_at_utc": "2026-05-16T17:34:52+00:00",
+      "date_utc": "2026-05-16",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2055703544477659427",
+      "in_baseline": true,
+      "full_text_chars": 1375,
+      "full_text_sha256": "4ac5ab264fc88d3ab3d3891b0bcf31b46bf799441e33b54cb85c09aee84dd574",
+      "excerpts": [
+        "坚持表达、坚持判断，就是一种难得的勇气。"
+      ],
+      "analysis": "公共议题中强调立场和承担，不支持把她一概归为中立围观者；引文权威性需另核。",
+      "title_is_excerpt": true
+    },
+    {
+      "key": "compassion",
+      "id": "2106266715264840038",
+      "author": "zengying1107",
+      "title": "《舍身饲虎》",
+      "url": "https://x.com/zengying1107/status/2106266715264840038",
+      "published_at_utc": "2026-10-03T06:14:52+00:00",
+      "date_utc": "2026-10-03",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2106266715264840038",
+      "in_baseline": true,
+      "full_text_chars": 483,
+      "full_text_sha256": "49ff6150236bcce08d02a03e497be72da5b295453a6fbfbc077b13cf514738c4",
+      "excerpts": [
+        "只要心存慈悲之心，菩萨便真实存在。"
+      ],
+      "analysis": "把观展故事落在慈悲与生命感受上，笔调温热，不靠嘲笑或人际算计收尾。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "animal_law",
+      "id": "2112557786957754655",
+      "author": "zengying1107",
+      "title": "希望有生之年，中国可以推动动物保护立法。",
+      "url": "https://x.com/zengying1107/status/2112557786957754655",
+      "published_at_utc": "2026-10-20T14:53:20+00:00",
+      "date_utc": "2026-10-20",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2112557786957754655",
+      "in_baseline": false,
+      "full_text_chars": 153,
+      "full_text_sha256": "3cc4bfb9ee05bc634bd5ec561da5411d9d7b5123bb4e75085080aedfa68d9061",
+      "excerpts": [
+        "遗弃和虐杀同罪。"
+      ],
+      "analysis": "以动物福利议题发出道德和立法倡议；这是诉求，不是对现行法律的描述。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "cat_cafe",
+      "id": "2113638748902903913",
+      "author": "zengying1107",
+      "title": "@bboczeng 可以推荐你去朋友开的猫咖",
+      "url": "https://x.com/zengying1107/status/2113638748902903913",
+      "published_at_utc": "2026-10-23T14:28:41+00:00",
+      "date_utc": "2026-10-23",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2113638748902903913",
+      "in_baseline": false,
+      "full_text_chars": 22,
+      "full_text_sha256": "8f4c7fe540de62b5a50e911afd1de88bc0198e6f8a43ee65fcb68a450197b29e",
+      "excerpts": [
+        "可以推荐你去朋友开的猫咖"
+      ],
+      "analysis": "回复先顺着对方情境给出具体安排，为下一条职业身份笑点留接口。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "cat_translation",
+      "id": "2113639691740414420",
+      "author": "zengying1107",
+      "title": "@bboczeng 做其他猫和客户之间的翻译 人…",
+      "url": "https://x.com/zengying1107/status/2113639691740414420",
+      "published_at_utc": "2026-10-23T14:32:26+00:00",
+      "date_utc": "2026-10-23",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2113639691740414420",
+      "in_baseline": false,
+      "full_text_chars": 29,
+      "full_text_sha256": "2c81c20b2f711293faaafe701fcd60b3932a14bf69a2900b84fec6998b45f435",
+      "excerpts": [
+        "做其他猫和客户之间的翻译 人文知识签证"
+      ],
+      "analysis": "把猫与顾客的互动改写成正式岗位和签证名称，以行政术语接日常荒诞。",
+      "title_is_excerpt": true
+    },
+    {
+      "key": "thin_shoes",
+      "id": "2112890555407733147",
+      "author": "zengying1107",
+      "title": "@clotyufu 薄肌厚底才是版本答案😂",
+      "url": "https://x.com/zengying1107/status/2112890555407733147",
+      "published_at_utc": "2026-10-21T12:55:38+00:00",
+      "date_utc": "2026-10-21",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2112890555407733147",
+      "in_baseline": false,
+      "full_text_chars": 21,
+      "full_text_sha256": "bfb46e5d35bf06f687205fb5dc81b6c635be1eaf02cef41dfb758bd3ce6ab75d",
+      "excerpts": [
+        "薄肌厚底才是版本答案😂"
+      ],
+      "analysis": "借已有梗的句法换一个关键词，短回复直接落包袱，不展开成长文论说。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "love_joke",
+      "id": "2113763280338723185",
+      "author": "zengying1107",
+      "title": "今天你对我爱搭不理，明天起床我还来找你😂",
+      "url": "https://x.com/zengying1107/status/2113763280338723185",
+      "published_at_utc": "2026-10-23T22:43:32+00:00",
+      "date_utc": "2026-10-23",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2113763280338723185",
+      "in_baseline": false,
+      "full_text_chars": 24,
+      "full_text_sha256": "cc4bd4a59a4e19eb3d0337b48623ae5ff6252276746d421ed4b8eaf0143509d7",
+      "excerpts": [
+        "今天你对我爱搭不理，明天起床我还来找你😂"
+      ],
+      "analysis": "把励志反转的预期改成继续主动靠近；是轻喜剧自嘲，不应机械套用不求人姿态。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "nonutility",
+      "id": "2055715869809094971",
+      "author": "zengying1107",
+      "title": "刚刚刷到一则关于泡泡玛特创始人王宁的采访，他在采…",
+      "url": "https://x.com/zengying1107/status/2055715869809094971",
+      "published_at_utc": "2026-05-16T18:23:51+00:00",
+      "date_utc": "2026-05-16",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2055715869809094971",
+      "in_baseline": true,
+      "full_text_chars": 840,
+      "full_text_sha256": "7ffd1c8e074c005b519ba996030f3c0f5f6f0201fd451bbc7938e7d3a6510c70",
+      "excerpts": [
+        "人的存在，本不该被效率公式所衡量。"
+      ],
+      "analysis": "同一作者也反对把存在与温柔全都工具化，不能用关系成本论覆盖她所有价值表达。",
+      "title_is_excerpt": true
+    },
+    {
+      "key": "hindsight",
+      "id": "2057632784852922816",
+      "author": "zengying1107",
+      "title": "失败的时候就是失败，承认自己的失败，总结一些经验…",
+      "url": "https://x.com/zengying1107/status/2057632784852922816",
+      "published_at_utc": "2026-05-22T01:20:59+00:00",
+      "date_utc": "2026-05-22",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2057632784852922816",
+      "in_baseline": true,
+      "full_text_chars": 538,
+      "full_text_sha256": "5e9f536a6ae50a89dd4518a93872eb0fdf89c0ca3e5650f966e62b24d56aa5ea",
+      "excerpts": [
+        "平凡是不应该被自责的"
+      ],
+      "analysis": "反对用事后全知不断责备过去的自己，回到可控的生活与下一次选择。",
+      "title_is_excerpt": true
+    },
+    {
+      "key": "attention_recovery",
+      "id": "2110206137706668487",
+      "author": "zengying1107",
+      "title": "一个人，可以叫 Candy，也…",
+      "url": "https://x.com/zengying1107/status/2110206137706668487",
+      "published_at_utc": "2026-10-14T03:08:43+00:00",
+      "date_utc": "2026-10-14",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2110206137706668487",
+      "in_baseline": false,
+      "full_text_chars": 535,
+      "full_text_sha256": "5116f31a9a66d796e7c5dd29ed7d04bd38fc679c7c8e8cd6c9775350d3651502",
+      "excerpts": [
+        "真正的清醒，不是看透了多少人，而是看透之后，依然能够收回自己的注意力。"
+      ],
+      "analysis": "把身份、时间与注意力连成一条自我塑造路径，收回注意力是停止纠缠的行动。",
+      "title_is_excerpt": true
+    },
+    {
+      "key": "trend",
+      "id": "2099367336977596816",
+      "author": "zengying1107",
+      "title": "当我们讨论孙学，我们应该讨论什么？",
+      "url": "https://x.com/zengying1107/status/2099367336977596816",
+      "published_at_utc": "2026-09-14T05:19:12+00:00",
+      "date_utc": "2026-09-14",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2099367336977596816",
+      "in_baseline": false,
+      "full_text_chars": 1995,
+      "full_text_sha256": "939fdc3032f8de00f39f5d9009d509da26c4b2b7ff0f7352407b524f7c54e879",
+      "excerpts": [
+        "颖学是对孙学的提纯和蒸馏"
+      ],
+      "analysis": "在该帖中自定义颖学与孙学的关系：承认判断大势的可借鉴性，同时强调自爱与对世界的善意。",
+      "title_is_excerpt": false
+    },
+    {
+      "key": "cooperation",
+      "id": "2099767348437922068",
+      "author": "zengying1107",
+      "title": "昨天的文章里，我们讨论了“孙学”值得借鉴的地方：…",
+      "url": "https://x.com/zengying1107/status/2099767348437922068",
+      "published_at_utc": "2026-09-15T07:48:42+00:00",
+      "date_utc": "2026-09-15",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2099767348437922068",
+      "in_baseline": false,
+      "full_text_chars": 1164,
+      "full_text_sha256": "b360e4501c80e391a130c63efbfb76955b029ecffa49d67e3b5c649f9687d4d1",
+      "excerpts": [
+        "高估了注意力，而低估了协作资本。"
+      ],
+      "analysis": "先承认注意力的商业作用，再讨论信誉、信任与重复合作的机会成本，不等于否定流量本身。",
+      "title_is_excerpt": true
+    },
+    {
+      "key": "breakup_freedom",
+      "id": "2100821446255894684",
+      "author": "zengying1107",
+      "title": "@xi8nuo 也不是啦，分手是一件不起眼的小事…",
+      "url": "https://x.com/zengying1107/status/2100821446255894684",
+      "published_at_utc": "2026-09-18T05:37:18+00:00",
+      "date_utc": "2026-09-18",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2100821446255894684",
+      "in_baseline": true,
+      "full_text_chars": 73,
+      "full_text_sha256": "eddd971a541812f192ed3f8c3118683e243dac6f827477a6a69b1caea4e6d6b6",
+      "excerpts": [
+        "每个人都有分手的自由"
+      ],
+      "analysis": "把分手权利与分手处理方式分开，回复也会修正对方的道德判断。",
+      "title_is_excerpt": true
+    },
+    {
+      "key": "privacy_reply",
+      "id": "2100431491797078271",
+      "author": "zengying1107",
+      "title": "不知道真假，即便真的也很正常吧，每个人身体自由，…",
+      "url": "https://x.com/zengying1107/status/2100431491797078271",
+      "published_at_utc": "2026-09-17T03:47:46+00:00",
+      "date_utc": "2026-09-17",
+      "retrieved_at_utc": "2026-10-24T04:25:14+00:00",
+      "source_endpoint": "https://api.fxtwitter.com/status/2100431491797078271",
+      "in_baseline": false,
+      "full_text_chars": 188,
+      "full_text_sha256": "f4ef7c7c7a260e46db942fbbec8218d68ac87346f0d2ba77da8a0b40a1f7cbcb",
+      "excerpts": [
+        "如果没人探讨隐私保护这件事儿，只对明星八卦感兴趣的话"
+      ],
+      "analysis": "先保留传闻真伪，再把焦点移到隐私；说明隐私主题不是最新单帖才出现。",
+      "title_is_excerpt": true
+    }
+  ]
+}
