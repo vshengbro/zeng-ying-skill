@@ -20,7 +20,7 @@ import re
 import statistics
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SUN_REPO = os.environ.get("SUN_REPO", "/Users/sqs/code/sun-yuchen-skill")
+SUN_REPO = os.environ.get("SUN_REPO", "/Users/vshengbro/code/sun-yuchen-skill")
 OUT = os.path.join(ROOT, "references", "sun_samples.md")
 
 EMOJI = re.compile("[\U0001F300-\U0001FAFF☀-➿️❤]")

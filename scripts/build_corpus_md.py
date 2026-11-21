@@ -23,7 +23,7 @@ import os
 import re
 
 ZENG_REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SUN_REPO = os.environ.get("SUN_REPO", "/Users/sqs/code/sun-yuchen-skill")
+SUN_REPO = os.environ.get("SUN_REPO", "/Users/vshengbro/code/sun-yuchen-skill")
 OUT = os.path.join(ZENG_REPO, "references", "corpus.md")
 
 TARGET = ["孙割", "孙哥", "孙老师", "孙宇晨", "孙狗"]
